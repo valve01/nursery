@@ -5,7 +5,7 @@
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Mobile First</title>
+	<title>Питомник</title>
 	<link rel="stylesheet" href="css/main.css" />
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -18,12 +18,31 @@
 	<header class="header">
 		<div class="container header__container">
 			<div class="header__first-row">
+				<div class="header__icons">
+
+					<search>
+						<form action="">
+							<input type="search" class="none">
+							<button type="submit" class="none"></button>
+						</form>
+					</search>
+
+					<button class="search-btn"><img src="img/sprite.svg#icons--search"
+						class="svg-icons--search-dims" alt="icons--search"></button>
+					<a href="#" class="cart-link"><img src="img/sprite.svg#icons--cart" class="svg-icons--cart-dims"
+							alt="icons--cart"></a>
+					<a href="#" class="user-link"><img src="img/sprite.svg#icons--user" class="svg-icons--user-dims"
+							alt="icons--user"></a>
+
+				</div>
+
 				<a href="index.html" class="logo-link">
-					<img src="img/logo.png" class="logo" alt="logo">
+					<img src="img/sprite.svg#logo" class="logo" alt="logo">
 				</a>
 				<nav class="menu">
 					<button class="mobile-nav-btn"></button>
 				</nav>
+
 
 				<!-- @@include('__menu.html') -->
 

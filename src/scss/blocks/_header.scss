@@ -1,34 +1,44 @@
 .header {
-	background-color: var(--color-main);
+	background-color: var(--color-page-bg);
+	&__container{
 
+	}
 	&__first-row {
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding: 7px 0;
+		min-height: 70px;
 	}
+}
 
-	&__container {
+.svg-icons--search-dims,
+.svg-icons--cart-dims,
+.svg-icons--user-dims {
+	height: 22px;
+	width: 22px;
+}
+
+.header {
+	&__icons {
+		display: flex;
+		gap: 16px;
 	}
 }
-.logo {
-	margin-left: 5px;
+.search-btn {
 }
-.mobile-nav-btn {
-	width: 40px;
-	height: 40px;
-	background-color: #fff;
-	border-radius: 3px;
-	position: relative;
-	&::after {
-		content: '';
-		position: absolute;
-		top: 15px;
-		left: 14px;
-		width: 12px;
-		height: 2px;
-		border-radius: 0.5px;
-		background-color: var(--color-main);
-		box-shadow: 0 4px 0 var(--color-main), 0 8px 0 var(--color-main);
-	}
+.svg-icons--search-dims {
+}
+.cart-link {
+}
+.svg-icons--cart-dims {
+}
+.user-link {
+}
+.svg-icons--user-dims {
+}
+.logo-link {
+
+	position: absolute;
+	left: calc(50% - 25px);
+	top: 10px
 }

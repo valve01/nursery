@@ -87,7 +87,7 @@ function copyImagesDev() {
 }
 
 function spriteDev() {
-	return src(['./src/img/**/*.svg','!./src/img/logo.svg'])
+	return src(['./src/img/**/*.svg'])
 		.pipe(changed('./build/img/'))
 		.pipe(
 			svgSprite({

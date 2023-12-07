@@ -1,15 +1,15 @@
 :root {
 	--container-width: 1320px;
-	--container-padding: 20px;
+	--container-padding: 10px;
 
-	--font-main: 'Roboto', 'Arial', sans-serif;
-	--font-accent: 'Playfair Display', serif;
+	// --font-main: 'Roboto', 'Arial', sans-serif;
+	// --font-accent: 'Playfair Display', serif;
 
-	--page-bg-color: #fff;
-	--text-color: #4a4a4a;
-	--color-accent: #ffcc33;
+	--color-page-bg: #2c8659;
+	--color-text: #4a4a4a;
+	--color-accent: #fff;
 	--color-main: #2b4074;
-	--color-secondary: #f9f6e5;
+	--color-secondary: #f7f2ea;
 	--color-descr: #9b9b9b;
 
 	--laptop-size: 1199px;
@@ -23,9 +23,51 @@ $laptop-size: 1199px;
 $tablet-size: 959px;
 $mobile-size: 599px;
 
-
 .dark {
 	--page-bg-color: #252526;
 	--text-color: #fff;
 }
 
+%font-open-sans-300 {
+	font: {
+		family: 'Open Sans';
+		weight: 300;
+		style: normal;
+	}
+}
+
+%font-open-sans-400 {
+	font: {
+		family: 'Open Sans';
+		weight: 400;
+		style: normal;
+	}
+}
+%font-open-sans-600 {
+	font: {
+		family: 'Open Sans';
+		weight: 600;
+		style: normal;
+	}
+}
+%font-open-sans-300-i {
+	font: {
+		family: 'Open Sans';
+		weight: 300;
+		style: italic;
+	}
+}
+%font-cormorant-400 {
+	font: {
+		family: 'Cormorant';
+		weight: 400;
+		style: normal;
+	}
+}
+%font-cormorant-300-i {
+	font: {
+		family: 'Cormorant';
+		weight: 300;
+		style: italic;
+	}
+}
