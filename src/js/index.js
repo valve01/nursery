@@ -1,3 +1,3 @@
 
-import './modules/top-slider';
+
 
