@@ -1,0 +1,53 @@
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:regular,500,600,700,800,900);
+@import url(https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900);
+// @import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,regular,500,600,700,800);
+
+/* Libs */
+@import './libs/*.scss';
+
+/* Base */
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+@import './base/utils';
+@import './base/containers';
+@import './base/sticky-footer';
+
+
+/* Blocks */
+@import './blocks/*.scss';
+
+
+// .box {
+// 	background-image: url("large-balloons.jpg");
+// 	background-image: image-set(
+// 	  "large-balloons.avif" type("image/avif"),
+// 	  "large-balloons.jpg" type("image/jpeg")
+// 	);
+//   }
+
+
+// /* Select image based on resolution */
+// image-set(
+//   "image1.jpg" 1x,
+//   "image2.jpg" 2x
+// );
+
+// image-set(
+//   url("image1.jpg") 1x,
+//   url("image2.jpg") 2x
+// );
+
+// /* Select gradient based on resolution */
+// image-set(
+//   linear-gradient(blue, white) 1x,
+//   linear-gradient(blue, green) 2x
+// );
+
+// /* Select image based on supported formats */
+// image-set(
+//   url("image1.avif") type("image/avif"),
+//   url("image2.jpg") type("image/jpeg")
+// );

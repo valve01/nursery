@@ -1,0 +1,146 @@
+//Large Devices, Wide Screen
+@media screen and (min-width: 1440px) {
+	.container {
+		max-width: 1320px;
+		padding: 0;
+	}
+
+	.head {
+		min-height: 668px;
+	}
+	.top-slider {
+		&__title {
+			max-width: 700px;
+			padding: 113px 0 18px;
+			line-height: 96px;
+			font-size: 96px;
+		}
+		&__item {
+			min-height: 668px;
+		}
+		&__text {
+			margin: 0 auto 28px;
+		}
+		&__btn {
+			margin-bottom: 213px;
+		}
+		.slick-prev {
+			height: 70px;
+			width: 70px;
+			top: calc(50% - 70px);
+		}
+		.slick-next {
+			height: 70px;
+			width: 70px;
+		}
+	}
+	.slick-dots {
+		bottom: 78px;
+	}
+	.callback-block {
+		display: flex;
+		justify-content: center;
+		&__inner {
+			padding: 57px 150px;
+			width: 1440px;
+		}
+		&__box {
+		}
+		&__title {
+			text-align: left;
+		}
+		&__text {
+		}
+		&__btn {
+			margin-right: 15px;
+		}
+	}
+
+	.service {
+		&__inner {
+			display: flex;
+			padding: 0;
+			align-items: center;
+			justify-content: center;
+		}
+		&__text-block {
+			padding: 0;
+			min-width: 393px;
+			margin: 0 60px;
+		}
+		&__title {
+			text-align: left;
+		}
+		&__text {
+			margin-top: 65px;
+			&::after {
+				margin: 30px 0 35px;
+			}
+		}
+		&__descr {
+			margin-bottom: -6px;
+		}
+		&__item-wrapper {
+			min-height: 265px;
+			margin: 5px 13px 4px 13px;
+		}
+		&__items-container {
+			width: 910px;
+		}
+	}
+	.service-item {
+		width: 226px;
+		height: 277px;
+		border-right: solid #f9f6e5 2px;
+		&:nth-child(4n) {
+			border-right: none;
+		}
+		&:nth-child(6),
+		&:nth-child(7) {
+			border-bottom: none;
+		}
+		&:hover {
+			.service-item__title {
+				margin-bottom: 33px;
+			}
+		}
+	}
+
+	.projects {
+		// &__container {
+
+		// }
+		// &__title {
+		// 	&::after {
+		// 	}
+		// }
+		&__items {
+			margin: 80px auto ;
+			flex-wrap: nowrap;
+			gap: 23px;
+		}
+		// &__item {
+		// }
+		// &__item-image-link {
+		// }
+		&__item-image {
+			min-width: 268px;
+			min-height: 239px;
+			padding: 11px;
+		}
+		&__item-title {
+			margin-top: 27px;
+			font-size: 16px;
+		}
+		&__overlay {
+			min-height: 217px;
+			gap: 12px;
+		}
+		.info-icon,
+		.search-icon {
+			height: 25px;
+			width: 25px;
+		}
+	}
+
+}

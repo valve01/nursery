@@ -1,0 +1,12 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+    font-family: var(--font-main);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
+}
