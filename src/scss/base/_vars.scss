@@ -16,23 +16,16 @@
 	--tablet-size: 959px;
 	--mobile-size: 599px;
 }
+
 $color-secondary: #f9f6e5;
 
 $laptop-size: 1199px;
 $tablet-size: 959px;
 $mobile-size: 599px;
 
-$tablet-font-size-common: 14px;
+
 .dark {
 	--page-bg-color: #252526;
 	--text-color: #fff;
 }
-%--shadow-main {
-	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-}
-%--h2-title {
-	font-size: 32px;
-	color: var(--text-color);
-	margin-top: 32px;
-	font-weight: 500;
-}
+
