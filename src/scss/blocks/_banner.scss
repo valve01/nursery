@@ -1,0 +1,19 @@
+.banner {
+	color: #fff;
+	@extend %font-cormorant-400;
+	&__wrapper {
+		background-image: url('/img/banner.jpg');
+		min-height: 600px;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+	&__title {
+		max-width: 900px;
+		font-size: 60px;
+	}
+	&__descr {
+		max-width: 900px;
+		font-size: 24px;
+	}
+}
