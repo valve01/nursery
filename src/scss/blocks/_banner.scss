@@ -7,6 +7,13 @@
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+
+	}
+	&__inner {
+// margin: 0;
 	}
 	&__title {
 		max-width: 900px;
