@@ -1,13 +1,16 @@
+.mobile-nav{
+	display: none;
+}
 .header {
 	background-color: var(--color-page-bg);
-	&__container{
-
+	&__container {
 	}
 	&__first-row {
+		padding: 30px 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		min-height: 70px;
+		// min-height: 70px;
 	}
 }
 
@@ -21,7 +24,9 @@
 .header {
 	&__icons {
 		display: flex;
-		gap: 16px;
+	}
+	&__tools{
+		margin-right: 16px;
 	}
 }
 .search-btn {
@@ -37,8 +42,23 @@
 .svg-icons--user-dims {
 }
 .logo-link {
-
-	position: absolute;
-	left: calc(50% - 25px);
-	top: 10px
 }
+
+.menu {
+
+	&__list {
+		display: flex;
+	}
+	&__item {
+		margin-right: 70px;
+		&:last-child{
+			margin-right: 0;
+		}
+	}
+	&__link {
+		color: #fff;
+		font-size: 18px;
+
+	}
+}
+
