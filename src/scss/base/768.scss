@@ -4,6 +4,25 @@
 // }
 
 // Desktop first
-// @media (max-width: 768px) {
+@media (max-width: 768px) {
+	.menu {
+		display: none;
+	}
+	.mobile-nav {
+		display: block;
+	}
+	.logo {
+		position: absolute;
+		top: 15px;
+		left: calc(50% - 30px);
+	}
+	.header {
+&__first-row{
+	min-height: 90px;
+}
+	}
+	.header__container{
+		padding: 0 64px;
+	}
 
-// }
+}

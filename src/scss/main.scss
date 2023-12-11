@@ -1,6 +1,6 @@
 /* Fonts */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,regular,600,300italic);
-@import url(https://fonts.googleapis.com/css?family=Cormorant:regular,300italic);
+@import url(https://fonts.googleapis.com/css?family=Cormorant:regular,300italic,600);
 
 /* Libs */
 @import './libs/*.scss';
@@ -22,7 +22,7 @@
 
 /*Desktop first*/
 // @import './base/1920';
-// @import './base/1600';
+@import './base/1600';
 // @import './base/1440';
 // @import './base/1280';
 // @import './base/1024';

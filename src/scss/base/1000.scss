@@ -4,6 +4,22 @@
 // }
 
 // Desktop first
-// @media (max-width: 1000px) {
+@media (max-width: 1000px) {
 
-// }
+.container{
+	padding: 0 20px;
+}
+.search-btn{
+	margin-right: 50px;
+}
+.menu__item{
+	margin-right: 45px;
+}
+.logo{
+	height: 60px;
+	width: 60px;
+}
+.blockquote{
+	padding: 120px 0 135px;
+}
+}

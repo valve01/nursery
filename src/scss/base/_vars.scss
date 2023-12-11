@@ -6,8 +6,8 @@
 	// --font-accent: 'Playfair Display', serif;
 
 	--color-page-bg: #2c8659;
-	--color-text: #4a4a4a;
-	--color-accent: #fff;
+	--color-text: #ffffff;
+	--color-accent: #000;
 	--color-main: #2b4074;
 	--color-secondary: #f7f2ea;
 	--color-descr: #9b9b9b;
@@ -69,5 +69,12 @@ $mobile-size: 599px;
 		family: 'Cormorant';
 		weight: 300;
 		style: italic;
+	}
+}
+%font-cormorant-600 {
+	font: {
+		family: 'Cormorant';
+		weight: 600;
+		style: normal;
 	}
 }

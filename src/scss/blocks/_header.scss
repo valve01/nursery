@@ -2,15 +2,17 @@
 	display: none;
 }
 .header {
+
 	background-color: var(--color-page-bg);
+
 	&__container {
 	}
 	&__first-row {
+		min-height: 90px;
 		padding: 30px 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		// min-height: 70px;
 	}
 }
 
@@ -45,7 +47,6 @@
 }
 
 .menu {
-
 	&__list {
 		display: flex;
 	}
@@ -58,7 +59,6 @@
 	&__link {
 		color: #fff;
 		font-size: 18px;
-
 	}
 }
 
