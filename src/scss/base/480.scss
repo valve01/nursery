@@ -9,6 +9,7 @@
 		padding: 0 10px;
 	}
 	.banner {
+
 		&__title {
 			font-size: 40px;
 		}
@@ -31,8 +32,9 @@
 			padding: 20px 0;
 			min-height: 80px;
 		}
+	}
+	.search-btn{
+		margin-right: 35px;
+	}
 
-	}
-	.header {
-	}
 }

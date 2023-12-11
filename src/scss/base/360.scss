@@ -5,5 +5,26 @@
 
 // Desktop first
 @media (max-width: 360px) {
-
+	.search-btn {
+		margin-right: 25px;
+	}
+	.banner {
+		&__inner {
+			min-height: 367px;
+		}
+		&__title {
+			font-size: 24px;
+			margin-bottom: 10px;
+		}
+		&__descr {
+			font-size: 13px;
+			margin-bottom: 30px;
+			font-family: 'Open Sans';
+			font-weight: 300;
+			font-style: normal;
+		}
+	}
+	.blockquote {
+		padding: 70px 10px 80px;
+	}
 }
