@@ -42,7 +42,7 @@
 	&__menu {
 		&:has(.mobile-nav__active) {
 			position: absolute;
-			background-color: rgba($color: #1b1b1b, $alpha: 0.7);
+			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
 			width: 100vw;
 			height: 100vh;
 		}
@@ -87,6 +87,12 @@
 	&__link-addi {
 	}
 	&__icons {
+		background-color: var(--color-descr);
+		display: flex;
+		// height: 60px;
+		padding: 20px 80px;
+		justify-content: space-between;
+
 	}
 	&__search-link {
 	}
@@ -105,11 +111,14 @@ body:has(.mobile-nav__active) {
 }
 .active {
 }
-.svg-icons--search-dims {
-}
-.svg-icons--cart-dims {
-}
-.svg-icons--user-dims {
+.svg-icons--mobile-nav-search-dims,
+.svg-icons--mobile-nav-cart-dims,
+.svg-icons--mobile-nav-user-dims {
+	height: 32px;
+	width: 32px;
+	background-color: var(--color-page-bg);
+	padding: 6px;
+	border-radius: 4px;
 }
 .svg-icons--cross-dims {
 	height: 20px;
