@@ -39,11 +39,30 @@
 // }
 
 .mobile-nav {
-	text-align: center;
+
+	&__wrapper {
+		background-color: #fff;
+		margin: 0 auto;
+		left: 0;
+		right: 0;
+		top: -100%;
+		top: 0;
+		position: absolute;
+		width: 80%;
+		text-align: center;
+		transition: 1s;
+	}
+	.mobile-nav__active {
+		top: 0;
+		// body{
+		// 	overflow-y: hidden;
+		// 	background-color: rgba($color: #000000, $alpha: 0.2);
+		// }
+	}
 	&__top {
 		padding: 20px;
 		display: flex;
-		flex-direction:row-reverse;
+		flex-direction: row-reverse;
 	}
 	&__close-btn {
 	}
