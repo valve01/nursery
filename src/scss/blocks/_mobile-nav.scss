@@ -37,3 +37,55 @@
 // 		text-shadow: 0px 0px 6px var(--accent);
 // 	}
 // }
+
+.mobile-nav {
+	text-align: center;
+	&__top {
+		padding: 20px;
+		display: flex;
+		flex-direction:row-reverse;
+	}
+	&__close-btn {
+	}
+	&__list {
+		@extend %font-cormorant-400;
+		font-size: 24px;
+		line-height: normal;
+	}
+	&__item {
+		margin-bottom: 30px;
+	}
+	&__link {
+	}
+	&__list-addi {
+		@extend %font-open-sans-300;
+		font-size: 13px;
+	}
+	&__item-addi {
+		margin-bottom: 35px;
+	}
+	&__link-addi {
+	}
+	&__icons {
+	}
+	&__search-btn {
+	}
+	&__tools {
+	}
+	&__cart-link {
+	}
+	&__user-link {
+	}
+}
+.active {
+}
+.svg-icons--search-dims {
+}
+.svg-icons--cart-dims {
+}
+.svg-icons--user-dims {
+}
+.svg-icons--cross-dims {
+	height: 20px;
+	width: 20px;
+}

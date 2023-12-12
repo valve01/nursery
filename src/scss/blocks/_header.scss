@@ -1,5 +1,8 @@
 .mobile-nav{
-	display: none;
+	background-color: #fff;
+	color: #000;
+	
+	// display: none;
 }
 .header {
 
@@ -47,8 +50,11 @@
 }
 
 .menu {
+	// margin-left: 40px;
+	// margin-right: auto;
 	&__list {
 		display: flex;
+
 	}
 	&__item {
 		margin-right: 70px;
@@ -59,6 +65,7 @@
 	&__link {
 		color: #fff;
 		font-size: 18px;
+		text-wrap: nowrap;
 	}
 }
 
