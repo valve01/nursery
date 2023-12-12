@@ -41,6 +41,7 @@
 .mobile-nav {
 	&__menu {
 		&:has(.mobile-nav--active) {
+			transition: 0.7s;
 			position: absolute;
 			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
 			width: 100vw;
@@ -57,7 +58,7 @@
 		position: absolute;
 		width: 360px;
 		text-align: center;
-		transition: 1s;
+		transition: 0.7s;
 	}
 
 	&__top {
