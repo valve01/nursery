@@ -26,4 +26,21 @@
 		padding: 0 64px;
 	}
 
+
+	.products {
+		&__container {
+			padding: 30px 65px 70px;
+		}
+		&__title {
+			padding-bottom: 40px;
+		}
+		&__items{
+			flex-wrap: wrap;
+			justify-content: center;
+			gap:40px 
+		}
+	}
+
+
+
 }

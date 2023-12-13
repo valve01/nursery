@@ -15,12 +15,6 @@
 
 		font-size: 40px;
 	}
-	&__item {
-	}
-	&__item-container {
-	}
-	&__img-link {
-	}
 	&__item-name {
 		font-size: 24px;
 		display: block;
@@ -29,6 +23,7 @@
 	&__items {
 		justify-content: space-between;
 		display: flex;
+		
 	}
 }
 
