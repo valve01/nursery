@@ -22,3 +22,10 @@
 .shading{
 	background-color: rgba(27, 27, 27, 0.877);
 }
+
+.title {
+	font-size: 40px;
+	@extend %font-cormorant-400;
+	text-align: center;
+	margin-bottom: 60px;
+}

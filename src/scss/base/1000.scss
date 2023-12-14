@@ -36,8 +36,32 @@
 		&__title {
 			padding-bottom: 30px;
 		}
-
 	}
 
+	.reviews {
+		&__container {
+			padding: 0 60px;
+		}
+		&__item {
+			&:last-of-type {
+				display: none;
+			}
+		}
+	}
 
+	.blog {
+		&__container {
+			
+			padding-top: 120px;
+			padding-bottom: 120px;
+		}
+		&__items {
+			gap: 66px 20px;
+		}
+		&__item {
+			display: flex;
+			width: calc(50% - 10px);
+
+		}
+	}
 }

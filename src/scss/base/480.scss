@@ -9,7 +9,6 @@
 		padding: 0 10px;
 	}
 	.banner {
-
 		&__title {
 			font-size: 40px;
 		}
@@ -33,7 +32,7 @@
 			min-height: 80px;
 		}
 	}
-	.search-btn{
+	.search-btn {
 		margin-right: 35px;
 	}
 
@@ -45,10 +44,21 @@
 			padding-bottom: 20px;
 			font-size: 24px;
 		}
-		&__items{
-			gap: 30px 10px 
+		&__items {
+			gap: 30px 10px;
 		}
-
 	}
 
+	.reviews {
+		&__container {
+			padding: 0 10px;
+		}
+		&__items {
+			gap: 30px 20px;
+			justify-content: center;
+		}
+		&__item {
+			flex-basis: 280px;
+		}
+	}
 }
