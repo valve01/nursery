@@ -61,4 +61,43 @@
 			flex-basis: 280px;
 		}
 	}
+
+	.blog {
+		&__items {
+			margin-left: -10px;
+			margin-right: -10px;
+			flex-direction: column;
+			gap: 30px 0;
+			padding: 0px;
+		}
+		&__item {
+			display: flex;
+
+			&:nth-of-type(even) {
+				align-self: flex-end;
+			}
+		}
+		&__img {
+			height: 153px;
+			width: 230px;
+		}
+	}
+
+	.email {
+
+		&__box {
+			padding: 0;
+		}
+		&__text {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 30px;
+			font-size: 13px;
+		}
+		&__form {
+			width: 100%;
+			max-width: 580px;
+		}
+
+	}
 }
