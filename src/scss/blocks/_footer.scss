@@ -1,0 +1,88 @@
+.footer {
+	padding: 0;
+	background-color: #022e21;
+	&__container {
+		padding: 60px 0 20px;
+		max-width: 1200px;
+		margin: 0 auto;
+	}
+	&__main-block {
+		display: flex;
+		justify-content: space-between;
+		margin-bottom: 50px;
+		gap: 0 20px;
+	}
+	&__products {
+		width: 22%;
+	}
+	&__title {
+		@extend %font-cormorant-400;
+		font-size: 24px;
+		margin-bottom: 50px;
+	}
+	&__items {
+	}
+	&__item {
+		@extend %font-open-sans-300;
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+	&__company {
+		width: 22%;
+	}
+	&__quote {
+		margin-top: 80px;
+		max-width: 269px;
+	}
+	&__owner-quote {
+	}
+	&__text {
+		@extend %font-open-sans-300-i;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+	&__author {
+		@extend %font-open-sans-300;
+		font-size: 12px;
+	}
+	&__contacts {
+		max-width: 22%;
+	}
+	&__contacts-text {
+		@extend %font-open-sans-300;
+		font-size: 12px;
+	}
+	&__phone-block {
+		@extend %font-open-sans-300;
+		font-size: 13px;
+	}
+	&__logo {
+	}
+	&__phone {
+	}
+	&__phone-img {
+	}
+	&__phone-text {
+	}
+	&__email {
+	}
+	&__email-img {
+	}
+	&__email-text {
+	}
+	&__social-block {
+	}
+	&__social-icon {
+	}
+	&__bottom-block {
+		display: flex;
+	}
+	&__copyright {
+		@extend %font-open-sans-300;
+		font-size: 16px;
+	}
+	&__cards {
+	}
+	&__card-img {
+	}
+}
