@@ -9,6 +9,8 @@
 	}
 	&__title {
 		margin-bottom: 60px;
+		@extend %font-cormorant-400;
+		font-size: 40px;
 	}
 	&__items {
 		display: flex;
@@ -19,9 +21,13 @@
 	}
 	&__item-title {
 		margin-bottom: 10px;
+		@extend %font-open-sans-300;
+		font-size: 30px;
 	}
 	&__item-descr {
 		margin-bottom: 40px;
+		@extend %font-open-sans-600;
+		font-size: 20px;
 	}
 	&__img {
 	}
