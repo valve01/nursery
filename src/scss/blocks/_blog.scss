@@ -19,9 +19,22 @@
 	}
 	&__img-container {
 		flex-shrink: 0;
+		position: relative;
+		height: 180px;
+		width: 270px;
+		overflow: hidden;
 	}
-
+	&__img {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		width: 270px;
+		height: 180px;
+		object-fit: cover;
+	}
 	&__text {
+		
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -35,6 +48,7 @@
 		@extend %font-open-sans-300;
 	}
 	&__btn {
+		color: #000;
 		font-size: 13px;
 		@extend %font-open-sans-300;
 	}
@@ -46,5 +60,6 @@
 		border: 1px solid var(--color-accent);
 		@extend %font-open-sans-300;
 		font-size: 20px;
+		color: #000;
 	}
 }
