@@ -89,7 +89,7 @@ function scssDocs() {
 			.pipe(changed('./docs/css/'))
 			.pipe(plumber(plumberConfig('Styles')))
 			.pipe(sourceMaps.init())
-			.pipe(autoprefixer()) // не срабатывет не может прочитать нужен postcss-scss parser (такая ошибка вылазит если будет комментарий в scss)
+			.pipe(autoprefixer()) // не срабатывет не может прочитать нужен postcss-scss parser (такая ошибка вылазит если будет комментарий типа // в scss)
 			.pipe(sassGlob())
 			.pipe(webpCss())
 			.pipe(avifCss())
