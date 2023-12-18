@@ -73,9 +73,13 @@
 		&__item {
 			display: flex;
 
+			word-break: normal;
 			&:nth-of-type(even) {
 				align-self: flex-end;
 			}
+		}
+		&__img-container {
+			width: 153px;
 		}
 		&__img {
 			height: 153px;
@@ -84,7 +88,6 @@
 	}
 
 	.email {
-
 		&__box {
 			padding: 0;
 		}
@@ -98,6 +101,39 @@
 			width: 100%;
 			max-width: 580px;
 		}
+	}
+	.prioritise {
+		&__items {
+			gap: 50px 20px;
+		}
+		&__item {
+			width: 100%;
+		}
 
+		&__item-title {
+			min-height: 0;
+			font-size: 24px;
+		}
+		&__item-descr {
+			min-height: 0;
+			font-size: 20px;
+		}
+	}
+
+	.footer {
+		&__main-block {
+			justify-content: space-evenly;
+		}
+		&__contacts {
+			min-width: 100%;
+			order: 5;
+		}
+		&__social-block {
+			justify-content: center;
+			gap: 0 30px;
+		}
+		&__company {
+			text-align: left;
+		}
 	}
 }

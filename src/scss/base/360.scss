@@ -66,6 +66,9 @@
 			}
 			align-self: center;
 		}
+		&__img-container {
+			width: 270px;
+		}
 		&__img {
 			height: 180px;
 			width: 270px;
@@ -76,12 +79,34 @@
 		&__author {
 			padding-bottom: 10px;
 		}
-
-
 	}
 	.email {
 		&__title {
 			font-size: 24px;
+		}
+	}
+
+	.footer {
+		&__container {
+			padding-top: 0;
+		}
+		&__main-block {
+			margin-top: 0;
+			flex-wrap: wrap;
+		}
+		&__social-block {
+			padding: 0;
+		}
+		&__quote {
+			order: -1;
+			min-width: 100%;
+			text-align: center;
+			margin-bottom: 50px;
+		}
+
+		&__social-block {
+			padding-right: 40px;
+			padding-left: 40px;
 		}
 	}
 }

@@ -51,11 +51,18 @@
 
 	.blog {
 		&__container {
-			padding-top: 120px;
+			padding-top: 60px;
 			padding-bottom: 120px;
 		}
 		&__items {
 			gap: 66px 20px;
+		}
+
+		&__img-container {
+			width: 180px;
+		}
+		&__img {
+			width: 180px;
 		}
 
 		&__item {
@@ -90,6 +97,36 @@
 		&__form {
 			width: 100%;
 			max-width: 580px;
+		}
+	}
+
+	.prioritise {
+		&__items {
+			flex-wrap: wrap;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			gap: 30px 50px;
+		}
+		&__item {
+			width: calc(50% - 35px);
+		}
+
+		&__item-title {
+			margin: 0 auto 10px;
+			max-width: 350px;
+			min-height: 66px;
+		}
+		&__item-descr {
+			margin: 0 auto 40px;
+			max-width: 350px;
+			min-height: 48px;
+		}
+	}
+	.footer {
+		&__social-block {
+			padding-left: 0;
+			padding-right: 0;
 		}
 	}
 }
