@@ -1,0 +1,13 @@
+//Mobile first
+// @media (min-width: 768px) {
+
+// }
+
+// Desktop first
+@media (max-device-height: 850px) {
+	.mobile-nav {
+		&__wrapper{
+			height: 100%;
+		}
+	}
+}
