@@ -15,7 +15,16 @@
 
 <body class="body">
 
+
+
 	<header class="header">
+		<!-- <button id="button" aria-describedby="tooltip">
+			My button
+		  </button>
+		  <div id="tooltip" role="tooltip">My tooltip with more content
+			<div id="arrow"></div>
+		  </div> -->
+
 		<div class="container header__container">
 			<div class="header__first-row">
 				<div class="header__icons">
@@ -39,9 +48,35 @@
 
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class="menu__item"><a href="#" class="menu__link">Каталог</a></li>
+						<li class="menu__item menu__item-catalog"><button
+								class="menu__link">Каталог</button>
+							<div class="sub-menu">
+								<ul class="sub-menu__list">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Плодовые</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Хвойные</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Лиственные
+											кустарники</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Многолетние цветы</a>
+									</li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Розы</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Лиственные деревья</a>
+									</li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Сопутствующие
+											товары</a></li>
+								</ul>
+							</div>
+						</li>
 						<li class="menu__item"><a href="#" class="menu__link">Питомник</a></li>
-						<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+						<li class="menu__item menu__item-service"><button href="#" class="menu__link ">Услуги</button>
+							<div class="sub-menu-service ">
+								<ul class="sub-menu__list">
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Упаковка</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Доставка</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Помощь с посадкой</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Возврат</a></li>
+								</ul>
+							</div>
+						</li>
 						<li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
 						<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
 					</ul>

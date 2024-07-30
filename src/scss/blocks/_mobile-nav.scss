@@ -39,6 +39,10 @@
 // }
 
 .mobile-nav {
+	
+	&:has(.mobile-nav--active){
+		// display: flex;
+	}
 	&__menu {
 		&:has(.mobile-nav--active) {
 			transition: 0.7s;
@@ -61,9 +65,12 @@
 		text-align: center;
 		transition: 0.7s;
 		
-		display: flex;
+		// display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+
+		opacity: 0;;
+
 	}
 
 	&__top {
@@ -114,6 +121,7 @@ body:has(.mobile-nav--active) {
 	overflow-y: hidden;
 }
 .mobile-nav__wrapper.mobile-nav--active {
+	opacity: 100%;;
 	top: 0;
 }
 .active {

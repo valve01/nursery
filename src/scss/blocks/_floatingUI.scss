@@ -1,0 +1,29 @@
+
+.sub-menu,
+.sub-menu-service {
+	display: none;
+	width: max-content;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: var(--color-page-bg);
+	font-weight: bold;
+	padding: 5px;
+	border: solid 1px #fff;
+	border-top: none;
+}
+
+.sub-menu__list{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	row-gap: 16px;
+}
+
+.sub-menu__link {
+	font-size: 14px;
+	color:#fff;
+	@extend %font-open-sans-400;
+}
+
