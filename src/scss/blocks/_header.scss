@@ -7,7 +7,6 @@
 	}
 	&__first-row {
 		min-height: 90px;
-		// padding: 30px 0;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -50,8 +49,6 @@
 
 .menu {
 	height: 100%;
-	// margin-left: 40px;
-	// margin-right: auto;
 	&__list {
 		display: flex;
 	}
