@@ -23,7 +23,7 @@ let lottiePhoneAnim = new DotLottie({
 	// autoplay: true,
 	// loop: true,
 	canvas: lottiePhoneEl,
-	src: './img/icons/phone_2.json', 
+	src: './img/icons/phone2.json', 
 });
 
 lottiePhoneEl.addEventListener('mouseover', () => {
