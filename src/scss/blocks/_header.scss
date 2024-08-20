@@ -15,9 +15,16 @@
 
 .svg-icons--search-dims,
 .svg-icons--cart-dims,
-.svg-icons--user-dims {
+.svg-icons--user-dims
+ {
 	height: 22px;
 	width: 22px;
+}
+
+.search-icon,
+.cart-icon {
+	height: 30px;
+	width: 30px;
 }
 
 .header {

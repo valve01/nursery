@@ -17,6 +17,7 @@
 
 
 
+
 	<header class="header">
 		<div class="container header__container">
 			<div class="header__first-row">
@@ -29,20 +30,34 @@
 						</form>
 					</search>
 
-					<button class="search-btn header__tools"><img src="img/sprite.svg#icons--search"
-							class="svg-icons--search-dims" alt="icons--search"></button>
-					<a href="#" class="cart-link header__tools"><img src="img/sprite.svg#icons--cart"
-							class="svg-icons--cart-dims" alt="icons--cart"></a>
-					<a href="#" class="user-link header__tools"><img src="img/sprite.svg#icons--user"
-							class="svg-icons--user-dims" alt="icons--user"></a>
+					<button class="search-btn header__tools">
+						<!-- <img src="img/sprite.svg#icons--search"
+							class="svg-icons--search-dims" alt="icons--search"> -->
+						<lord-icon class="search-icon" colors="primary:#fff" trigger="hover"
+							src="./img/icons/light-system-solid-42-search.json"></lord-icon>
+					</button>
+
+
+					<a href="#" class="cart-link header__tools">
+						<!-- <img src="img/sprite.svg#icons--cart"
+							class="svg-icons--cart-dims" alt="icons--cart"> -->
+						<lord-icon class="cart-icon" colors="primary:#fff" trigger="hover"
+							src="./img/icons/system-solid-6-shopping.json"></lord-icon>
+					</a>
+					<a href="#" class="user-link header__tools">
+						<!-- <img src="img/sprite.svg#icons--user"
+							class="svg-icons--user-dims" alt="icons--user"> -->
+
+						<canvas hover style="width: 30px; height: 30px;" id="dotlottie-canvas"></canvas>
+
+					</a>
 
 				</div>
 
 
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class="menu__item menu__item-catalog"><button
-								class="menu__link">Каталог</button>
+						<li class="menu__item menu__item-catalog"><button class="menu__link">Каталог</button>
 							<div class="sub-menu">
 								<ul class="sub-menu__list">
 									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Плодовые</a></li>
@@ -65,7 +80,8 @@
 								<ul class="sub-menu__list">
 									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Упаковка</a></li>
 									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Доставка</a></li>
-									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Помощь с посадкой</a></li>
+									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Помощь с посадкой</a>
+									</li>
 									<li class="sub-menu__item"><a href="#" class="sub-menu__link">Возврат</a></li>
 								</ul>
 							</div>
