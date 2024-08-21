@@ -6,40 +6,33 @@ defineElement(lottie.loadAnimation);
 import { DotLottie } from '@lottiefiles/dotlottie-web';
 const lottieEl = document.querySelector('.dotlottie-canvas');
 let dotLottie = new DotLottie({
-	// autoplay: true,
-	// loop: true,
 	canvas: lottieEl,
 	src: './img/icons/userAnim.json', 
 });
 
 lottieEl.addEventListener('mouseover', () => {
 	dotLottie.play();
-	// dotLottie.loop('true');
 });
 
-
+const phoneContainer=document.querySelector('.footer__phone')
 const lottiePhoneEl = document.querySelector('.dotlottie-phone');
 let lottiePhoneAnim = new DotLottie({
-	// autoplay: true,
-	// loop: true,
 	canvas: lottiePhoneEl,
-	src: './img/icons/phone2.json', 
+	src: './img/icons/phone_3.json', 
 });
 
-lottiePhoneEl.addEventListener('mouseover', () => {
+phoneContainer.addEventListener('mouseover', () => {
 	lottiePhoneAnim.play();
-	// dotLottie.loop('true');
+
 });
 
+const emailContainer =document.querySelector('.footer__email')
 const lottieMailEl = document.querySelector('.dotlottie-mail');
 let lottieMailAnim = new DotLottie({
-	// autoplay: true,
-	// loop: true,
 	canvas: lottieMailEl,
-	src: './img/icons/mail.json', 
+	src: './img/icons/mail_3.json', 
 });
 
-lottieMailEl.addEventListener('mouseover', () => {
+emailContainer.addEventListener('mouseover', () => {
 	lottieMailAnim.play();
-	// dotLottie.loop('true');
 });
