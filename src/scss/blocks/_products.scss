@@ -7,12 +7,16 @@
 		max-width: 1200px;
 		@extend %font-cormorant-400;
 		line-height: normal;
-		
 	}
 	&__title {
 		color: var(--color-accent);
 	}
 	&__item-name {
+		position: relative;
+		top: 0;
+		bottom: 0;
+		margin-top: auto;
+		margin-bottom: 0;
 		font-size: 24px;
 		display: block;
 		color: var(--color-accent);
@@ -20,6 +24,7 @@
 	&__items {
 		justify-content: space-between;
 		display: flex;
+		height: 200px;
 		
 	}
 }
@@ -28,8 +33,44 @@
 .svg-icons--conifer-tree-dims,
 .svg-icons--fruit-tree-dims,
 .svg-icons--palm-tree-dims,
+.svg-icons--leaf-bush-dims,
+.svg-icons--rose-dims,
 .svg-icons--home-plant-dims {
 	height: 150px;
 	width: 150px;
 	margin-bottom: 20px;
+}
+
+// Animation
+.rotate-block{
+	
+}
+.change-img {
+	min-width: 150px;
+	// flex-shrink: 0;
+	height: 100%;
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.change-img:hover .front-side-img {
+	transform: rotateY(180deg);
+}
+.change-img:hover .back-side-img {
+	transform: rotateY(360deg);
+}
+/* Стороны изображения */
+.front-side-img,
+.back-side-img {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	transition: 1s;
+}
+
+.back-side-img img {
+	transform: scaleX(-1); /* Отражаем изображение по горизонтали */
+}
+.back-side-img {
+	transform: rotateY(180deg);
 }
