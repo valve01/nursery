@@ -6,7 +6,6 @@
 		margin: 60px auto;
 		max-width: 1200px;
 		overflow: hidden;
-		
 	}
 	&__title {
 		// font-size: 40px;
@@ -18,15 +17,26 @@
 		display: flex;
 		justify-content: space-between;
 		gap: 0 20px;
-		transform: translateX(120%);
-		transition: all 1s ease;
+		// transform: translateX(120%);
 	}
 	&__items.visible {
-
 		transform: translateX(0);
 	}
 	&__item {
 		flex-basis: 280px;
+		transition: all 1s ease;
+		&:nth-child(1),
+		&:nth-child(2) {
+			transform: translateX(-220%);
+		}
+		&:nth-child(3),
+		&:nth-child(4) {
+			transform: translateX(220%);
+		}
+	}
+
+	&__item.visible {
+		transform: translateX(0);
 	}
 	&__text {
 		@extend %font-open-sans-300-i;

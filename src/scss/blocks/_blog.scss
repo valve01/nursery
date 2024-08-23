@@ -22,6 +22,10 @@
 		height: 180px;
 		width: 270px;
 		overflow: hidden;
+
+		display: inline-block;
+		background: #2c8659; /* Меняем цвет на свой */ 
+		line-height: 0;
 	}
 	&__img {
 		position: absolute;
@@ -31,9 +35,13 @@
 		width: 270px;
 		height: 180px;
 		object-fit: cover;
+		transition: filter 0.3s linear;
+		filter: opacity(0.5) grayscale(1) brightness(0.7);
+		&:hover{
+			filter: none;
+		}
 	}
 	&__text {
-
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -60,5 +68,12 @@
 		@extend %font-open-sans-300;
 		font-size: 20px;
 		color: #000;
+		transition: 0.5s all;
+
+		&:hover{
+			color: #fff;
+			background-color: var(--color-page-bg);
+			border: 1px solid var(--color-page-bg);
+		}
 	}
 }

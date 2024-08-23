@@ -42,6 +42,13 @@
 		padding: 12px 36px;
 		font-size: 20px;
 		margin-bottom: 10px;
+		transition: all 0.5s;
+		&:hover{
+			border: 1px solid #fff;
+			background-color: var(--color-page-bg);
+			color: #fff;
+		}
+
 	}
 	&__label {
 		display: flex;

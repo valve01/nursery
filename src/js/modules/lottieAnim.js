@@ -1,13 +1,15 @@
 import lottie from 'lottie-web';
 import { defineElement } from '@lordicon/element';
-// define "lord-icon" custom element with default properties
+// // define "lord-icon" custom element with default properties
 defineElement(lottie.loadAnimation);
+
+
 
 import { DotLottie } from '@lottiefiles/dotlottie-web';
 const lottieEl = document.querySelector('.dotlottie-canvas');
 let dotLottie = new DotLottie({
 	canvas: lottieEl,
-	src: './img/icons/userAnim.json', 
+	src: './img/icons/userAnim.json',
 });
 
 lottieEl.addEventListener('mouseover', () => {
@@ -18,7 +20,7 @@ const phoneContainer=document.querySelector('.footer__phone')
 const lottiePhoneEl = document.querySelector('.dotlottie-phone');
 let lottiePhoneAnim = new DotLottie({
 	canvas: lottiePhoneEl,
-	src: './img/icons/phone_3.json', 
+	src: './img/icons/phone_3.json',
 });
 
 phoneContainer.addEventListener('mouseover', () => {
@@ -30,7 +32,7 @@ const emailContainer =document.querySelector('.footer__email')
 const lottieMailEl = document.querySelector('.dotlottie-mail');
 let lottieMailAnim = new DotLottie({
 	canvas: lottieMailEl,
-	src: './img/icons/mail_3.json', 
+	src: './img/icons/mail_3.json',
 });
 
 emailContainer.addEventListener('mouseover', () => {
