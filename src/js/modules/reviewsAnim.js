@@ -5,7 +5,7 @@ let { top } = reviewsItemsList.getBoundingClientRect();
 let clientHeightValue = window.scrollY;
 
 window.addEventListener('scroll', () => {
-	clientHeightValue = window.scrollY + 400;
+	clientHeightValue = window.scrollY + 600;
 	console.log(top, clientHeightValue);
 	if (top < clientHeightValue) {
 		reviewsItems.forEach((item) => {

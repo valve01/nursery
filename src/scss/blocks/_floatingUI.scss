@@ -27,6 +27,7 @@
 	padding: 10px;
 	background-color: #fff;
 	color: var(--color-page-bg);
+	transition: all 0.2s;
 	&:hover{
 		background-color: var(--color-page-bg);
 		color:#fff;

@@ -6,15 +6,6 @@ defineElement(lottie.loadAnimation);
 
 
 import { DotLottie } from '@lottiefiles/dotlottie-web';
-const lottieEl = document.querySelector('.dotlottie-canvas');
-let dotLottie = new DotLottie({
-	canvas: lottieEl,
-	src: './img/icons/userAnim.json',
-});
-
-lottieEl.addEventListener('mouseover', () => {
-	dotLottie.play();
-});
 
 const phoneContainer=document.querySelector('.footer__phone')
 const lottiePhoneEl = document.querySelector('.dotlottie-phone');

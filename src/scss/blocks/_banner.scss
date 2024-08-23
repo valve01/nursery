@@ -8,6 +8,23 @@
 	&__wrapper {
 		background-image: linear-gradient(#00000000, #000000cc);
 	}
+	&__btn {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 80px;
+	}
+	&__link {
+		padding: 30px;
+		@extend %font-open-sans-300;
+		font-size: 36px;
+		background-color: var(--color-page-bg);
+		color: #fff;
+		transition: all 0.3s;
+		&:hover {
+			background-color: #fff;
+			color: var(--color-page-bg);
+		}
+	}
 	&__inner {
 		min-height: 600px;
 		display: flex;
