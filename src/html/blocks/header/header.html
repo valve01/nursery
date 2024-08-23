@@ -2,11 +2,11 @@
 <html lang="ru">
 
 <head>
-	<meta charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Питомник</title>
-	<link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/main.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
@@ -19,16 +19,20 @@
 
 
 	<header class="header">
+
+		<!-- W3C валидадор ругается. Но это ошибка в валидаторе. Доказательство: github.com/validator/validator/issues/1569 -->
+		<search>
+			<form action="./search.php">
+				<input type="search" class="none" >
+				<button type="submit" class="none">Поиск</button>
+			</form>
+		</search>
+
 		<div class="container header__container">
 			<div class="header__first-row">
 				<div class="header__icons">
 
-					<search>
-						<form action="">
-							<input type="search" class="none">
-							<button type="submit" class="none"></button>
-						</form>
-					</search>
+
 
 					<button class="search-btn header__tools">
 
@@ -49,7 +53,7 @@
 
 				<nav class="menu">
 					<ul class="menu__list">
-						<li class="menu__item menu__item-catalog"><button class="menu__link">Каталог</button>
+						<li class="menu__item menu__item-catalog"><a href="inDeveloping.html" class="menu__link">Каталог</a>
 							<div class="sub-menu">
 								<ul class="sub-menu__list">
 									<li class="sub-menu__item"><a href="inDeveloping.html" class="sub-menu__link">Плодовые</a></li>
@@ -67,7 +71,7 @@
 							</div>
 						</li>
 						<li class="menu__item"><a href="inDeveloping.html" class="menu__link">Питомник</a></li>
-						<li class="menu__item menu__item-service"><button href="inDeveloping.html" class="menu__link ">Услуги</button>
+						<li class="menu__item menu__item-service"><a href="inDeveloping.html" class="menu__link ">Услуги</a>
 							<div class="sub-menu-service ">
 								<ul class="sub-menu__list">
 									<li class="sub-menu__item"><a href="inDeveloping.html" class="sub-menu__link">Упаковка</a></li>
