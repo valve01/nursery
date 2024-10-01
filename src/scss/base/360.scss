@@ -8,6 +8,11 @@
 	.search-btn {
 		margin-right: 16px;
 	}
+	.header {
+		&__tools {
+			margin-right: 0px;
+		}
+	}
 	.banner {
 		&__inner {
 			min-height: 367px;
