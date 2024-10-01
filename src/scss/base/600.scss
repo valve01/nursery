@@ -5,5 +5,10 @@
 	.header__container {
 		padding: 0 16px;
 	}
+	.footer{
+		&__social-block {
+			padding: 0 10px;
+		}
+	}
 	
 }

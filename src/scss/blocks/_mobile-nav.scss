@@ -1,9 +1,7 @@
-
 .mobile-nav {
-	
 	&__menu {
 		&:has(.mobile-nav--active) {
-			transition: 0.7s;
+			transition: all 0.7s;
 			position: absolute;
 			background-color: rgba($color: #1b1b1b, $alpha: 0.5);
 			width: 100vw;
@@ -11,16 +9,18 @@
 		}
 	}
 	&__wrapper {
+		// transition: translate 0.7s;
+	
+		
 		background-color: #fff;
 		margin: 0 auto;
 		left: 0;
 		right: 0;
-		transform: translate(0, -100%);
-		top: 0;
+		transform: translate(0, -150%);
 		position: absolute;
 		width: 100%;
 		text-align: center;
-		transition: 0.7s;
+		transition: all 0.7s linear;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -73,6 +73,9 @@ body:has(.mobile-nav--active) {
 	overflow-y: hidden;
 }
 .mobile-nav__wrapper.mobile-nav--active {
+	z-index: 100;
+	overflow-y: auto;
+	height: 100vh;
 	transform: translate(0, 0);
 }
 .active {
