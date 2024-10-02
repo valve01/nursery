@@ -1,48 +1,66 @@
 .popular {
+	background-color: #fff;
 	padding: 0 20px 40px;
 
 	&__container {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-
-
 	}
 	&__title {
+		color: #000;
 	}
 	&__items {
 		display: flex;
 		flex-wrap: wrap;
 		align-items: center;
-		justify-content:space-between;
 		row-gap: 8px;
-		// column-gap: auto;
 	}
 	&__item {
-		max-width: 250px;
+		padding-right: 0.2em;
+		padding-left: 0.2em;
+		max-width: 16.66666667%;
 	}
 	&__item-inner {
+		background-color: var(--color-page-bg);
 		text-align: center;
-		border: 2px solid #fff;
+		border: 1px solid var(--color-descr);
+
+		transition: 0.15s;
+		&:hover {
+			scale: 1.05;
+			box-shadow: 0px 16px 56px 5px rgba(0, 0, 0, 1);
+		}
+	}
+	&__item-inner-text {
 		padding: 10px;
 	}
 	&__item-img-link {
 	}
 	&__item-img-wrap {
-
 	}
 	&__item-img {
 		object-fit: cover;
 		height: 200px;
-		width: 220px;
+		// width: 220px;
 	}
 	&__item-item-name-link {
+		height: 72px;
 	}
 	&__item-name {
+		display: -webkit-box;
+		-webkit-box-orient: vertical;
+		-webkit-line-clamp: 3;
+		overflow: hidden;
+		font-size: 18px;
+		margin-bottom: 8px;
+		margin-top: 6px;
 	}
 	&__item-price {
+		margin-bottom: 10px;
 	}
 	&__item-stock-block {
+		margin-bottom: 10px;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -62,14 +80,20 @@
 	&__item-btn-block {
 		display: flex;
 		flex-direction: column;
+		align-items: center;
 	}
 	&__item-btn-buy {
+		background-color: var(--color-descr);
+		padding: 8px;
 	}
 	&__item-btn-buy-text {
 	}
 	&__item-btn-buy-icon {
 	}
 	&__item-btn-in-cart {
+		background-color: var(--color-descr);
+		padding: 8px;
+		// display: flex;
 	}
 	&__item-btn-in-cart-text {
 	}
