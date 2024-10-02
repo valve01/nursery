@@ -1,0 +1,90 @@
+.popular {
+	padding: 0 20px 40px;
+
+	&__container {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+
+
+	}
+	&__title {
+	}
+	&__items {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+		justify-content:space-between;
+		row-gap: 8px;
+		// column-gap: auto;
+	}
+	&__item {
+		max-width: 250px;
+	}
+	&__item-inner {
+		text-align: center;
+		border: 2px solid #fff;
+		padding: 10px;
+	}
+	&__item-img-link {
+	}
+	&__item-img-wrap {
+
+	}
+	&__item-img {
+		object-fit: cover;
+		height: 200px;
+		width: 220px;
+	}
+	&__item-item-name-link {
+	}
+	&__item-name {
+	}
+	&__item-price {
+	}
+	&__item-stock-block {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	&__item-in-stock {
+	}
+	&__item-in-stock-icon {
+	}
+	&__item-in-stock-text {
+	}
+	&__item-not-available {
+	}
+	&__item-not-available-icon {
+	}
+	&__item-not-available-text {
+	}
+	&__item-btn-block {
+		display: flex;
+		flex-direction: column;
+	}
+	&__item-btn-buy {
+	}
+	&__item-btn-buy-text {
+	}
+	&__item-btn-buy-icon {
+	}
+	&__item-btn-in-cart {
+	}
+	&__item-btn-in-cart-text {
+	}
+	&__item-btn-in-cart-icon {
+	}
+}
+.title {
+}
+.fa-regular {
+}
+.fa-circle-check {
+}
+.fa-circle-xmark {
+}
+.fa-solid {
+}
+.fa-cart-plus {
+}
