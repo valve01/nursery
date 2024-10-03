@@ -44,10 +44,10 @@
 		width: 16.66666667%;
 	}
 	&__item-inner {
-		background-color: var(--color-page-bg);
+		// background-color: var(--color-text);
 
 		text-align: center;
-		border: 1px solid var(--color-descr);
+		border: 2px solid var(--color-descr);
 
 		transition: 0.15s;
 		&:hover {
@@ -76,6 +76,8 @@
 	&__item-item-name-link {
 	}
 	&__item-name {
+		@extend %font-open-sans-600;
+		color: var(--color-page-bg);
 		display: -webkit-box;
 		-webkit-box-orient: vertical;
 		-webkit-line-clamp: 3;
@@ -85,9 +87,12 @@
 		margin-top: 6px;
 	}
 	&__item-price {
+		@extend %font-open-sans-400;
 		margin-bottom: 10px;
+		color: var(--color-page-bg);
 	}
 	&__item-stock-block {
+		color: var(--color-page-bg);
 		margin-bottom: 10px;
 		display: flex;
 		flex-direction: column;
@@ -112,16 +117,23 @@
 		align-items: center;
 	}
 	&__item-btn-buy {
-		background-color: var(--color-descr);
-		padding: 8px;
+		background-color: var(--color-page-bg);
+		padding: 8px 20px;
+		transition: 0.3s;
+		&:hover {
+			background-color: var(--color-text);
+			color: var(--color-page-bg);
+			outline: 1px solid var(--color-page-bg);
+			box-shadow: 0px 0px 10px 4px var(--color-page-bg);
+		}
 	}
 	&__item-btn-buy-text {
 	}
 	&__item-btn-buy-icon {
 	}
 	&__item-btn-in-cart {
-		background-color: var(--color-descr);
-		padding: 8px;
+		background-color: var(--color-page-bg);
+		padding: 8px 20px;
 		display: none;
 	}
 	&__item-btn-in-cart-text {
