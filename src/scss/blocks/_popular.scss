@@ -38,6 +38,7 @@
 		row-gap: 8px;
 	}
 	&__item {
+		animation: fade 0.5s;
 		padding-right: 0.2em;
 		padding-left: 0.2em;
 		width: 16.66666667%;
@@ -126,6 +127,15 @@
 	&__item-btn-in-cart-text {
 	}
 	&__item-btn-in-cart-icon {
+	}
+}
+
+@keyframes fade {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
 	}
 }
 
