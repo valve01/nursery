@@ -44,8 +44,6 @@
 		width: 16.66666667%;
 	}
 	&__item-inner {
-		// background-color: var(--color-text);
-
 		text-align: center;
 		border: 2px solid var(--color-descr);
 
@@ -57,6 +55,7 @@
 	}
 	&__item-inner-text {
 		padding: 10px 10px 20px;
+		background-color: #fff;
 	}
 	&__item-img-link {
 	}
@@ -132,13 +131,13 @@
 	&__item-btn-buy-icon {
 	}
 	&__item-btn-in-cart {
-		background-color: var(--color-page-bg);
+		background-color: var(--color-descr);
 		padding: 8px 20px;
-		display: none;
 	}
 	&__item-btn-in-cart-text {
 	}
 	&__item-btn-in-cart-icon {
+		color: var(--color-page-bg);
 	}
 }
 
