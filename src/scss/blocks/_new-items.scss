@@ -1,4 +1,21 @@
-
+.f-carousel {
+	width: 30%;
+	padding: 0 20px;
+}
 .popular__item.f-carousel__slide {
-	max-width: 16.66667%;
+	max-width: calc((100% - 40px) / 2);
+	--f-carousel-spacing: 40px;
+	margin-right: var(--f-carousel-spacing);
+}
+.new-items {
+	&__container {
+	}
+	&__title {
+	}
+	&__items {
+	}
+	&__carousel-wrap {
+		display: flex;
+		justify-content: end;
+	}
 }

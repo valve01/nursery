@@ -10,7 +10,9 @@ const options = {
 	Autoplay: {
 		timeout: 3000,
 	  },
-	  slidesPerPage:1
+	  slidesPerPage:1,
+	//   fill:false,
+	  center:false
 };
 
 new Carousel(container, options,{ Autoplay });
