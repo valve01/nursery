@@ -24,7 +24,7 @@
 		overflow: hidden;
 
 		display: inline-block;
-		background: #2c8659; /* Меняем цвет на свой */ 
+		background: #2c8659; /* Меняем цвет на свой */
 		line-height: 0;
 	}
 	&__img {
@@ -37,7 +37,7 @@
 		object-fit: cover;
 		transition: filter 0.3s linear;
 		filter: opacity(0.5) grayscale(1) brightness(0.7);
-		&:hover{
+		&:hover {
 			filter: none;
 		}
 	}
@@ -70,7 +70,7 @@
 		color: #000;
 		transition: 0.5s all;
 
-		&:hover{
+		&:hover {
 			color: #fff;
 			background-color: var(--color-page-bg);
 			border: 1px solid var(--color-page-bg);
