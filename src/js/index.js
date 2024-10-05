@@ -4,5 +4,5 @@ import './modules/floating';
 import './modules/lottieAnim';
 import './modules/reviewsAnim';
 import './modules/popularTab';
-import './modules/fancyCarousel';
-
+// import './modules/fancyCarousel';
+import './modules/popularList';

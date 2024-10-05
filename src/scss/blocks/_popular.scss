@@ -1,5 +1,5 @@
 .popular {
-	background-color: #fff;
+	background-color: #a3aca4;
 	padding: 0 20px 40px;
 
 	&__container {
@@ -149,6 +149,18 @@
 		opacity: 1;
 	}
 }
+
+.list li{
+	color: #000;
+}
+#test-list input{
+	background-color: var(--color-descr);
+	color: #000;
+}
+.pagination li {
+	display:inline-block;
+	padding:5px;
+  }
 
 .fa-regular {
 }
