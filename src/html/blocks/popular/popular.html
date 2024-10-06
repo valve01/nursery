@@ -2,41 +2,32 @@
 	<div class="popular__container">
 		<h3 class="title popular__title ">Популярные товары</h3>
 		<ul class="popular__categories">
-			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="all">Все</a></li>
-			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="fruit-trees">Плодовые деревья</a></li>
-			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="fruit-bushes">Плодовые кустарники</a>
+			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="all">Все</a>
 			</li>
-			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="ornamental">Декоративные кустарники</a>
+			<li class="popular__categories-item"><a href="#" class="popular__categories-link"
+					data-cat="fruit-trees">Плодовые деревья</a></li>
+			<li class="popular__categories-item"><a href="#" class="popular__categories-link"
+					data-cat="fruit-bushes">Плодовые кустарники</a>
 			</li>
-			<li class="popular__categories-item"><a href="#" class="popular__categories-link" data-cat="conifers">Хвойные</a></li>
+			<li class="popular__categories-item"><a href="#" class="popular__categories-link"
+					data-cat="ornamental">Декоративные кустарники</a>
+			</li>
+			<li class="popular__categories-item"><a href="#" class="popular__categories-link"
+					data-cat="conifers">Хвойные</a></li>
 		</ul>
 
 		<div id="test-list">
 			<input type="text" class="search" />
-			<ul class="list">
-			  <li><p class="name">Guybrush Threepwood</p></li>
-			  <li><p class="name">Elaine Marley</p></li>
-			  <li><p class="name">LeChuck</p></li>
-			  <li><p class="name">Stan</p></li>
-			  <li><p class="name">Voodoo Lady</p></li>
-			  <li><p class="name">Herman Toothrot</p></li>
-			  <li><p class="name">Meathook</p></li>
-			  <li><p class="name">Carla</p></li>
-			  <li><p class="name">Otis</p></li>
-			  <li><p class="name">Rapp Scallion</p></li>
-			  <li><p class="name">Rum Rogers Sr.</p></li>
-			  <li><p class="name">Men of Low Moral Fiber</p></li>
-			  <li><p class="name">Murray</p></li>
-			  <li><p class="name">Cannibals</p></li>
+			<ul class="popular__items list">
+
+				@@include('./popular-card-list.html')
+
+
 			</ul>
 			<ul class="pagination"></ul>
-		  </div>
+		</div>
 
 
-		<ul class="popular__items">
 
-			@@include('./popular-card-list.html')
-
-		</ul>
 	</div>
 </section>
