@@ -26,12 +26,13 @@ monkeyList.on('updated', () => {
 	}, 0);
 });
 
-const categuryLinksForList = document.querySelectorAll('.popular__categories-link');
-categuryLinksForList.forEach((link) => {
-
-	link.addEventListener('click', () => {
-		console.log(link,'вот')
-		monkeyList.update();
-
-	});
-});
+// const categuryLinksForList = document.querySelectorAll('.popular__categories-link');
+// categuryLinksForList.forEach((link) => {
+// 	link.addEventListener('click', () => {
+// 		console.log(link, 'вот');
+// 		setTimeout(() => {
+// 			monkeyList.update();
+// 		}, 1000);
+		
+// 	});
+// });
