@@ -23,7 +23,7 @@ cardsList.on('updated', () => {
 	}, 0);
 });
 
-const categuryLinksForList = document.querySelectorAll('.popular__categories-link');
+const categuryLinksForList = document.querySelectorAll('.catalog__categories-link');
 categuryLinksForList.forEach((link) => {
 	link.addEventListener('click', (e) => {
 		e.preventDefault();

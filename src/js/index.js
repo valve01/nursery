@@ -3,6 +3,6 @@ mobileNav();
 import './modules/floating';
 import './modules/lottieAnim';
 import './modules/reviewsAnim';
-import './modules/popularTab';
+import './modules/catalogTab';
 // import './modules/fancyCarousel';
-import './modules/popularList';
+import './modules/catalogList';
