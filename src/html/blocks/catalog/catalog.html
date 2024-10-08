@@ -5,6 +5,9 @@
 			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link" data-cat="all">Всё</a>
 			</li>
 			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link"
+					data-cat="conifers">Хвойные</a>
+			</li>
+			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link"
 					data-cat="fruit-trees">Плодовые деревья</a></li>
 			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link"
 					data-cat="fruit-bushes">Плодовые кустарники</a>
@@ -12,8 +15,9 @@
 			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link"
 					data-cat="ornamental">Декоративные кустарники</a>
 			</li>
-			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link"
-					data-cat="conifers">Хвойные</a></li>
+
+			<li class="catalog__categories-item"><a href="#" class="catalog__categories-link" data-cat="roses">Розы</a>
+			</li>
 		</ul>
 
 		<div id="list-container">
@@ -21,7 +25,11 @@
 			<ul class="pagination"></ul>
 			<ul class="catalog__items list">
 
-				@@include('./catalog-card-list.html')
+				@@include('./conifers-card-list.html')
+				@@include('./fruit-trees-list.html')
+				@@include('./fruit-bushes-card-list.html')
+				@@include('./ornamental-card-list.html')
+				@@include('./roses-card-list.html')
 
 			</ul>
 		</div>
