@@ -21,8 +21,17 @@
 		</ul>
 
 		<div id="list-container">
-			<input type="text" class="search" />
-			<ul class="pagination"></ul>
+			<div class="search-and-pagination-wrapper">
+
+				<ul class="pagination"></ul>
+
+				<button class="search-btn header__tools">
+					<lord-icon class="search-icon" colors="primary:#2c8659" trigger="hover"
+						src="./img/icons/light-system-solid-42-search.json"></lord-icon>
+				</button>
+
+				<input type="text" class="search" placeholder="Поиск по каталогу" />
+			</div>
 			<ul class="catalog__items list">
 
 				@@include('./conifers-card-list.html')
