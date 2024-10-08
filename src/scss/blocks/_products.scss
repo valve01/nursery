@@ -51,12 +51,15 @@
 .svg-icons--leaf-tree-dims,
 .svg-icons--conifer-tree-dims,
 .svg-icons--fruit-tree-dims,
+.svg-icons--fruit-bush-dims,
 .svg-icons--palm-tree-dims {
-	// height: 100px;
-	// max-width: 100px;
+
 	margin-bottom: 20px;
 }
-
+.products__img-link .svg-icons--rose-dims{
+	height: 100px;
+	width: 100px;
+}
 
 // Animation
 .rotate-block {
