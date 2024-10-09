@@ -36,7 +36,13 @@
 		@include btn-default;
 		padding: 10px;
 		transition: 0.5s all;
+		&--active{
+			color: var(--color-text);
+			background-color: var(--color-page-bg);
+		}
 	}
+
+
 	&__items {
 		display: flex;
 		flex-wrap: wrap;

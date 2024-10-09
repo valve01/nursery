@@ -28,6 +28,10 @@ categuryLinksForList.forEach((link) => {
 	link.addEventListener('click', (e) => {
 		e.preventDefault();
 		const currentCat = e.target.dataset['cat'];
+		categuryLinksForList.forEach((item) => {
+			item.classList.remove('catalog__categories-link--active');
+		});
+		link.classList.add('catalog__categories-link--active');
 		cardsList.filter(function (item) {
 			if (item.values().category == currentCat || currentCat == 'all') {
 				return true;
