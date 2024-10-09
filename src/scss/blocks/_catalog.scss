@@ -1,3 +1,15 @@
+@mixin btn-default{
+	transition: color 0.3s, background-color 0.3s;
+	color: var(--color-page-bg);
+	background-color: var(--color-text);
+	border: 2px solid var(--color-page-bg);
+	@extend %font-open-sans-400;
+	&:hover{
+		color: var(--color-text);
+		background-color: var(--color-page-bg);
+	}
+}
+
 .catalog {
 	background-color: var(--color-text);
 	padding: 0 20px 40px;
@@ -21,15 +33,9 @@
 	&__categories-item {
 	}
 	&__categories-link {
-		color: #000;
-		border: 1px black solid;
+		@include btn-default;
 		padding: 10px;
 		transition: 0.5s all;
-		&:hover {
-			color: #fff;
-			background-color: var(--color-page-bg);
-			border: 1px solid var(--color-page-bg);
-		}
 	}
 	&__items {
 		display: flex;
@@ -140,8 +146,7 @@
 		color: var(--color-page-bg);
 	}
 }
-#list-container {
-}
+
 .search-and-pagination-wrapper {
 	position: relative;
 	display: flex;
@@ -182,10 +187,15 @@
 	margin-right: auto;
 	display: flex;
 	justify-content: center;
-	& li {
+	& .active {
 		& .page {
 			color: var(--color-text);
 			background-color: var(--color-page-bg);
+		}
+	}
+	& li {
+		& .page {
+			@include btn-default;
 			padding: 8px;
 			border-radius: 6px;
 			padding: 5px 16px;

@@ -55,25 +55,14 @@
 		@extend %font-open-sans-300;
 	}
 	&__btn {
-		color: #000;
 		font-size: 13px;
-		@extend %font-open-sans-300;
 	}
 	&__view-all-btn {
 		text-align: center;
 	}
 	&__view-all-link {
+		@include btn-default;
 		padding: 12px 40px;
-		border: 1px solid var(--color-accent);
-		@extend %font-open-sans-300;
 		font-size: 20px;
-		color: #000;
-		transition: 0.5s all;
-
-		&:hover {
-			color: #fff;
-			background-color: var(--color-page-bg);
-			border: 1px solid var(--color-page-bg);
-		}
 	}
 }
