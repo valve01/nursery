@@ -3,15 +3,35 @@ import '@fancyapps/ui/dist/carousel/carousel.css';
 import { Autoplay } from '@fancyapps/ui/dist/carousel/carousel.autoplay.esm.js';
 import '@fancyapps/ui/dist/carousel/carousel.autoplay.css';
 
+const allGalerySlides = document.querySelectorAll('.galery .galery__item');
 const allPopularSlides = document.querySelectorAll('.popular .catalog__item');
-allPopularSlides.forEach((slide) => {
-	slide.classList.add('f-carousel__slide');
-});
-
 const allNewItemsSlides = document.querySelectorAll('.new-items .catalog__item');
-allNewItemsSlides.forEach((slide) => {
-	slide.classList.add('f-carousel__slide');
-});
+
+const addSlideClass = (array) => {
+	array.forEach((slide) => {
+		slide.classList.add('f-carousel__slide');
+	});
+};
+
+addSlideClass(allGalerySlides);
+addSlideClass(allPopularSlides);
+addSlideClass(allNewItemsSlides);
+
+const galeryCarouselContainer = document.getElementById('galeryCarousel');
+const galeryCarouselOptions = {
+	// infinite: true,
+	Autoplay: {
+		timeout: 7000,
+	},
+	slidesPerPage: 1,
+	//   fill:false,
+	center: false,
+};
+new Carousel(
+	galeryCarouselContainer,
+	galeryCarouselOptions,
+	// { Autoplay }
+);
 
 const popularCarouselContainer = document.getElementById('popularCarousel');
 const popularCarouselOptions = {
@@ -23,10 +43,7 @@ const popularCarouselOptions = {
 	//   fill:false,
 	center: false,
 };
-
-new Carousel(popularCarouselContainer, popularCarouselOptions,
-	 { Autoplay }
-	);
+new Carousel(popularCarouselContainer, popularCarouselOptions, { Autoplay });
 
 const newItemsContainer = document.getElementById('newItemsCarousel');
 const newItemsOptions = {
@@ -38,7 +55,4 @@ const newItemsOptions = {
 	//   fill:false,
 	center: false,
 };
-
-new Carousel(newItemsContainer, newItemsOptions, 
-	{ Autoplay }
-);
+new Carousel(newItemsContainer, newItemsOptions, { Autoplay });
