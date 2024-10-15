@@ -15,11 +15,12 @@
 
 .svg-icons--search-dims,
 .svg-icons--cart-dims,
-.svg-icons--user-dims
- {
+.svg-icons--user-dims {
 	height: 22px;
 	width: 22px;
 }
+
+
 
 .search-icon,
 .cart-icon {
@@ -67,7 +68,7 @@
 		&:hover {
 			background-color: #fff;
 		}
-		&:hover .menu__link{
+		&:hover .menu__link {
 			color: var(--color-page-bg);
 		}
 	}

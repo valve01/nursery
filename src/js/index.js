@@ -3,7 +3,7 @@ mobileNav();
 import './modules/floating';
 import './modules/lottieAnim';
 import './modules/reviewsAnim';
-import './modules/catalogTab';
+import './modules/catalogBuyBtn';
 import './modules/fancyIndexCarousel';
 
 document.title = 'Садовый центр: Ёлочки'

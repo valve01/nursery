@@ -24,7 +24,6 @@
 .new-items,
 .popular {
 	width: 50%;
-
 }
 
 .f-carousel {
@@ -35,4 +34,10 @@
 	width: calc((100% - 60px) / 3);
 	--f-carousel-spacing: 30px;
 	margin-right: var(--f-carousel-spacing);
+	.catalog__item-inner {
+		&:hover {
+			scale: none;
+			box-shadow: none;
+		}
+	}
 }
