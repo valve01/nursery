@@ -2,7 +2,9 @@ const config = {
 	mode: 'production',
 	entry: {
 		index: './src/js/index.js',
-		notIndex: './src/js/notIndex.js',
+		catalog: './src/js/catalog.js',
+		galery: './src/js/galery.js',
+		inDev:'./src/js/inDev.js',
 	},
 	output: {
 		filename: '[name].bundle.js',

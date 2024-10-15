@@ -2,10 +2,7 @@ import mobileNav from './modules/mobile-nav';
 mobileNav();
 import './modules/floating';
 import './modules/lottieAnim';
-import './modules/reviewsAnim';
 import './modules/catalogTab';
-import './modules/fancyIndexCarousel';
+import './modules/catalogList';
 
-document.title = 'Садовый центр: Ёлочки'
-
-
+document.title = 'Каталог - Садовый центр: Ёлочки'
