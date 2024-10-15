@@ -19,13 +19,14 @@ addSlideClass(allNewItemsSlides);
 
 const galeryCarouselContainer = document.getElementById('galeryCarousel');
 const galeryCarouselOptions = {
-	// infinite: true,
+	// preload: 2,
+	infinite: false,
 	Autoplay: {
 		timeout: 7000,
 	},
 	slidesPerPage: 1,
 	//   fill:false,
-	center: false,
+	// center: false,
 };
 new Carousel(
 	galeryCarouselContainer,
