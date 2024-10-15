@@ -1,19 +1,10 @@
-import { cardsList, categoryLinksForList } from './catalogList';
-console.log(categoryLinksForList);
+import { cardsList, categoryLinksForList, setActiveCat } from './catalogList';
 const headerRoutingLinks = document.querySelectorAll('.header a[data-sub-nav]');
-// const rulesBlock = document.querySelector('.rules-block');
-// const scrollToRules = () => {
-// 	rulesBlock.scrollIntoView(top);
-// };
+
 const setActiveCategory = (currentHush) => {
 	categoryLinksForList.forEach((categoryLink) => {
-		if(categoryLink.dataset['cat']==currentHush){
-
-			categoryLinksForList.forEach((item) => {
-				item.classList.remove('catalog__categories-link--active');
-			});
-			categoryLink.classList.add('catalog__categories-link--active');
-
+		if (categoryLink.dataset['cat'] == currentHush) {
+			setActiveCat(categoryLink);
 		}
 	});
 };

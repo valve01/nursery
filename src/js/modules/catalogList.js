@@ -23,17 +23,20 @@ cardsList.on('updated', () => {
 	}, 0);
 });
 
-export const categoryLinksForList = document.querySelectorAll('.catalog__categories-link');
+const categoryLinksForList = document.querySelectorAll('.catalog__categories-link');
+
+const setActiveCat = (link) => {
+	categoryLinksForList.forEach((item) => {
+		item.classList.remove('catalog__categories-link--active');
+	});
+	link.classList.add('catalog__categories-link--active');
+};
+
 categoryLinksForList.forEach((link) => {
 	link.addEventListener('click', (e) => {
 		e.preventDefault();
 		const currentCat = e.target.dataset['cat'];
-
-		categoryLinksForList.forEach((item) => {
-			item.classList.remove('catalog__categories-link--active');
-		});
-		link.classList.add('catalog__categories-link--active');
-		
+		setActiveCat(link);
 		cardsList.filter(function (item) {
 			if (item.values().category == currentCat || currentCat == 'all') {
 				return true;
@@ -51,5 +54,4 @@ clearInputBtn.addEventListener('click', () => {
 	cardsList.search();
 });
 
-
-export {cardsList}
+export { cardsList, categoryLinksForList, setActiveCat };
