@@ -19,14 +19,15 @@ addSlideClass(allNewItemsSlides);
 
 const galeryCarouselContainer = document.getElementById('galeryCarousel');
 const galeryCarouselOptions = {
-	// preload: 2,
 	infinite: false,
+	Dots: {
+		dynamicFrom: 50,
+	},
 	Autoplay: {
 		timeout: 7000,
 	},
 	slidesPerPage: 1,
-	//   fill:false,
-	// center: false,
+	center: false,
 };
 new Carousel(
 	galeryCarouselContainer,
@@ -41,7 +42,6 @@ const popularCarouselOptions = {
 		timeout: 7000,
 	},
 	slidesPerPage: 1,
-	//   fill:false,
 	center: false,
 };
 new Carousel(popularCarouselContainer, popularCarouselOptions, { Autoplay });
@@ -53,7 +53,6 @@ const newItemsOptions = {
 		timeout: 5000,
 	},
 	slidesPerPage: 1,
-	//   fill:false,
 	center: false,
 };
 new Carousel(newItemsContainer, newItemsOptions, { Autoplay });
