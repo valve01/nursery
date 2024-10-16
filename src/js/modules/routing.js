@@ -1,5 +1,5 @@
 import { cardsList, categoryLinksForList, setActiveCat } from './catalogList.js';
-const catalogRoutingLinks = document.querySelectorAll('.header a[data-sub-nav], .footer a[data-footer-nav] ');
+const catalogRoutingLinks = document.querySelectorAll('.header a[data-sub-nav], .footer a[data-footer-nav], products a[data-products-nav] ');
 
 const setActiveCategory = (currentHush) => {
 	categoryLinksForList.forEach((categoryLink) => {
