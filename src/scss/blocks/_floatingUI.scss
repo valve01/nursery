@@ -9,6 +9,9 @@
 	background: #fff;
 	font-weight: bold;
 	border-top: none;
+	z-index: 800;
+	border: var(--color-descr) 2px solid;
+	border-top: none;
 }
 
 .sub-menu__list{

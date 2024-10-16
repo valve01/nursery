@@ -67,6 +67,7 @@
 		}
 		&:hover {
 			background-color: #fff;
+			border-left: var(--color-page-bg) 1px solid;
 		}
 		&:hover .menu__link {
 			color: var(--color-page-bg);
