@@ -4,6 +4,7 @@ import './modules/floating';
 import './modules/lottieAnim';
 import './modules/catalogBuyBtn';
 import './modules/catalogList';
+import './modules/clearInput';
 import './modules/routing';
 
 document.title = 'Каталог - Садовый центр: Ёлочки'

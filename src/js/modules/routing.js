@@ -1,7 +1,4 @@
-import { cardsList, categoryLinksForList, setActiveCat } from './catalogList';
-// import cardsList from './catalogList';
-// import categoryLinksForList from './catalogList';
-// import setActiveCat from './catalogList';
+import { cardsList, categoryLinksForList, setActiveCat } from './catalogList.js';
 const headerRoutingLinks = document.querySelectorAll('.header a[data-sub-nav]');
 
 const setActiveCategory = (currentHush) => {
@@ -23,13 +20,15 @@ const selectCategory = (currentHush) => {
 };
 
 const initWhenRedirect = () => {
-	setTimeout(() => {
-		let currentHush = window.location.hash.substring(1);
-		if (window.location.href.includes(`${currentHush}`)) {
-			selectCategory(currentHush);
-			setActiveCategory(currentHush);
-		}
-	}, 0);
+	if (window.location.href.includes('catalog')) {
+		setTimeout(() => {
+			let currentHush = window.location.hash.substring(1);
+			if (window.location.href.includes(`${currentHush}`)) {
+				selectCategory(currentHush);
+				setActiveCategory(currentHush);
+			}
+		}, 0);
+	}
 };
 
 initWhenRedirect();

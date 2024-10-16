@@ -47,12 +47,6 @@ categoryLinksForList.forEach((link) => {
 	});
 });
 
-const clearInputBtn = document.querySelector('.search-and-pagination-wrapper .cross-search');
-const catalogInputSearch = document.querySelector('.search-and-pagination-wrapper .search');
-clearInputBtn.addEventListener('click', () => {
-	catalogInputSearch.value = '';
-	cardsList.search();
-});
 
 export { cardsList, categoryLinksForList, setActiveCat };
-// export { categoryLinksForList };
+
