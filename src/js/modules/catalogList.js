@@ -55,3 +55,4 @@ clearInputBtn.addEventListener('click', () => {
 });
 
 export { cardsList, categoryLinksForList, setActiveCat };
+// export { categoryLinksForList };

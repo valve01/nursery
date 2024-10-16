@@ -1,6 +1,8 @@
 import { cardsList, categoryLinksForList, setActiveCat } from './catalogList';
+// import cardsList from './catalogList';
+// import categoryLinksForList from './catalogList';
+// import setActiveCat from './catalogList';
 const headerRoutingLinks = document.querySelectorAll('.header a[data-sub-nav]');
-
 
 const setActiveCategory = (currentHush) => {
 	categoryLinksForList.forEach((categoryLink) => {
