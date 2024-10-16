@@ -1,6 +1,7 @@
 import { cardsList, categoryLinksForList, setActiveCat } from './catalogList';
 const headerRoutingLinks = document.querySelectorAll('.header a[data-sub-nav]');
 
+
 const setActiveCategory = (currentHush) => {
 	categoryLinksForList.forEach((categoryLink) => {
 		if (categoryLink.dataset['cat'] == currentHush) {
@@ -11,7 +12,7 @@ const setActiveCategory = (currentHush) => {
 
 const selectCategory = (currentHush) => {
 	cardsList.filter(function (item) {
-		if (item.values().category == currentHush) {
+		if (item.values().category == currentHush || currentHush == '') {
 			return true;
 		} else {
 			return false;
