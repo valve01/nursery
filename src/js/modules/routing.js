@@ -1,5 +1,5 @@
 import { cardsList, categoryLinksForList, setActiveCat } from './catalogList.js';
-const headerRoutingLinks = document.querySelectorAll('.header a[data-sub-nav]');
+const catalogRoutingLinks = document.querySelectorAll('.header a[data-sub-nav], .footer a[data-footer-nav] ');
 
 const setActiveCategory = (currentHush) => {
 	categoryLinksForList.forEach((categoryLink) => {
@@ -33,6 +33,6 @@ const initWhenRedirect = () => {
 
 initWhenRedirect();
 
-headerRoutingLinks.forEach((link) => {
+catalogRoutingLinks.forEach((link) => {
 	link.addEventListener('click', initWhenRedirect);
 });

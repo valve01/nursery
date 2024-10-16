@@ -37,7 +37,7 @@ const eventHandler = (btn,subM) => {
 		btn.addEventListener(event, listener);
 	});
 };
-eventHandler(serviceBtn,subMenuService);
+// eventHandler(serviceBtn,subMenuService);
 eventHandler(catalogBtn,subMenu);
 
 
