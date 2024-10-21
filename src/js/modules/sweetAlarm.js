@@ -1,12 +1,12 @@
 import swal from 'sweetalert';
-const mailInput = document.querySelector('.mail-form__user-mail');
+const mailInput = document.querySelector('.email__input');
 
 const showPopup = () => {
 	swal({
-		title: 'Message sent successfully',
-		text: `We will reply to you at: ${mailInput.value} `,
+		title: 'Сообщение успешно отправлено',
+		text: `Мы пришлем вам ответ на электронный адрес: ${mailInput.value} `,
 		icon: 'success',
-		button: "I'm so excited!",
+		button: "Ок, жду",
 	});
 };
 

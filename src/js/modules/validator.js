@@ -1,21 +1,25 @@
 import { isEmail } from 'validator';
 import showPopup from './sweetAlarm';
-import hideForm from './hideForm';
+// import hideForm from './hideForm';
 
-const mailInput = document.querySelector('.mail-form__user-mail');
-const submitBtn = document.querySelector('.mail-form__form .read-btn');
+const mailInput = document.querySelector('.email__input');
+const submitBtn = document.querySelector('.email__btn');
+
 
 submitBtn.addEventListener('click', (e) => {
+	e.preventDefault();
 	if (isEmail(mailInput.value)) {
 		mailInput.classList.remove('invalid-value');
 		mailInput.classList.remove('valid-value');
-		hideForm(e);
+		
+		// hideForm(e);
+		
 		showPopup();
 	} else {
 		mailInput.value = '';
 		mailInput.setAttribute('placeholder', 'Invalid Email');
 		mailInput.classList.add('invalid-value');
-		e.preventDefault();
+		// e.preventDefault();
 	}
 });
 

@@ -6,7 +6,7 @@ import './modules/reviewsAnim';
 import './modules/catalogBuyBtn';
 import './modules/fancyIndexCarousel';
 import './modules/routing';
-import './modules/sweetAlarm';
+// import './modules/sweetAlarm';
 import './modules/validator';
 
 document.title = 'Садовый центр: Ёлочки'
