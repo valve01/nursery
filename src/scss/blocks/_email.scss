@@ -31,9 +31,13 @@
 		margin-right: 25px;
 		border-bottom: 1px solid rgb(255, 255, 255);
 		width: calc(100% - 150px);
+		color: #000;
+		background-color: #fff;
+		padding: 4px 10px 0;
 		&::placeholder {
-			color: #ffffff65;
+			color: #858585c4;
 		}
+
 	}
 	&__btn {
 		color: var(--color-page-bg);
@@ -47,6 +51,14 @@
 			border: 1px solid #fff;
 			background-color: var(--color-page-bg);
 			color: #fff;
+		}
+		&:disabled{
+			opacity: 0.3;
+			cursor:not-allowed;
+			&:hover{
+				color: var(--color-page-bg);
+				background-color: #fff;
+			}
 		}
 
 	}
