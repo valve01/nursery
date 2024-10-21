@@ -49,7 +49,9 @@
 		"jquery": "^3.7.1",
 		"list.js": "^2.3.1",
 		"lottie-web": "^5.12.2",
-		"slick-slider": "^1.8.2"
+		"slick-slider": "^1.8.2",
+		"sweetalert": "^2.1.2",
+		"validator": "^13.12.0"
 	},
 	"browserslist": [
 		"last 10 version"
