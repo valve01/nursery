@@ -77,6 +77,8 @@
 	&__item-item-name-link {
 	}
 	&__item-name {
+		text-wrap: wrap;
+		word-break:break-word;
 		@extend %font-open-sans-600;
 		color: var(--color-page-bg);
 		display: -webkit-box;
@@ -140,6 +142,11 @@
 	}
 	&__item-btn-in-cart-icon {
 		color: var(--color-page-bg);
+	}
+	&__search-block{
+		display: flex;
+		align-items: center;
+
 	}
 }
 

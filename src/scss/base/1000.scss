@@ -66,6 +66,16 @@
 	}
 
 	// =======================
+
+	// Catalog===================
+
+	.catalog {
+		&__categories-link {
+			font-size: 16px;
+			padding: 6px;
+		}
+	}
+// =======================
 	.blog {
 		&__container {
 			padding-top: 60px;

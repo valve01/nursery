@@ -4,4 +4,24 @@
 	.new-items .f-carousel__slide {
 		width: calc((100% - 30px) / 2);
 	}
+
+	// Catalog===================
+
+	.catalog {
+		&__categories-link {
+			font-size: 18px;
+			padding: 8px;
+		}
+	}
+
+	.search-and-pagination-wrapper .search-btn.header__tools {
+		margin-right: 6px;
+	}
+	.search {
+		width: 320px;
+		font-size: 18px;
+		&::placeholder {
+			font-size: 18px;
+		}
+	}
 }
