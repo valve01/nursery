@@ -25,10 +25,9 @@
 		font-family: 'Open Sans';
 		font-weight: 300;
 		padding: 60px 50px;
-		font-size: 16px;
+		font-size: 20px;
 	}
 	.logo {
-
 		width: 50px;
 		height: 50px;
 	}
@@ -42,13 +41,44 @@
 		// margin-right: 35px;
 	}
 
+	// Sliders==========================
+	.title {
+		font-size: 34px;
+	}
+	body .f-carousel__dots {
+		display: none;
+	}
+
+	.catalog__item-name.name {
+		font-size: 16px;
+	}
+	.catalog__item-price,
+	.catalog__item-in-stock-text,
+	.catalog__item-not-available-text,
+	.catalog__item-btn-buy-text,
+	.catalog__item-btn-in-cart-text {
+		font-size: 14px;
+	}
+	.catalog__item-img{
+		height: 160px;
+	}
+.catalog__item-inner-text{
+	padding: 6px 6px 10px;
+}
+	.catalog__item-btn-in-cart,
+	.catalog__item-btn-buy {
+		padding: 6px 14px;
+	}
+
+	// ===================================
+
 	.products {
 		&__container {
 			padding: 30px 10px 50px;
 		}
 		&__title {
-			padding-bottom: 20px;
-			font-size: 24px;
+			// padding-bottom: 20px;
+			// font-size: 24px;
 		}
 		&__items {
 			gap: 30px 10px;
@@ -94,6 +124,10 @@
 	}
 
 	.email {
+		&__input{
+			width: 100%;
+			margin-right: 0px;
+		}
 		&__box {
 			padding: 0;
 		}
@@ -105,7 +139,21 @@
 		}
 		&__form {
 			width: 100%;
-			max-width: 580px;
+			
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		&__btn{
+			order: 3;
+			width: 50%;
+		}
+		&__checkbox-descr{
+		
+			margin-bottom: 26px;
+		}
+		&__label{
+			margin-top: 16px;
 		}
 	}
 	.prioritise {

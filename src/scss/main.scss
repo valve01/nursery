@@ -13,22 +13,19 @@
 @import './base/containers';
 @import './base/sticky-footer';
 
-
-
-
 /* Blocks */
 @import './blocks/*.scss';
 
 /* Adaptation */
 
 /*Desktop first*/
+@import './base/1300';
 @import './base/1100';
 @import './base/1000';
+@import './base/890';
 @import './base/850h';
 @import './base/810';
 @import './base/600';
 @import './base/480';
+@import './base/410';
 @import './base/360';
-
-
-

@@ -5,6 +5,20 @@
 
 // Desktop first
 @media (max-width: 1100px) {
+
+	.menu {
+
+		&__item {
+			padding: 48px 10px;
+		}
+	}
+
+	.logo {
+		height: 60px;
+		width: 60px;
+		margin-left: 20px;
+	}
+
 	.blog{
 		&__img{
 			filter: none;

@@ -1,0 +1,7 @@
+// Desktop first
+@media (max-width: 1300px) {
+	.popular .f-carousel__slide,
+	.new-items .f-carousel__slide {
+		width: calc((100% - 30px) / 2);
+	}
+}

@@ -11,19 +11,7 @@
 	.search-btn {
 		margin-right: 50px;
 	}
-	.menu {
-		&__link {
-		}
-		&__item {
-			padding: 48px 10px;
-		}
-	}
 
-	.logo {
-		height: 60px;
-		width: 60px;
-		margin-left: 20px;
-	}
 	.blockquote {
 		padding: 120px 20px 135px;
 	}
@@ -49,6 +37,35 @@
 		}
 	}
 
+	// Sliders =====================
+
+	#popularCarousel .f-button.is-prev,
+	#newItemsCarousel .f-button.is-prev {
+		left: 0;
+	}
+
+	#popularCarousel .f-button.is-next,
+	#newItemsCarousel .f-button.is-next {
+		right: 0;
+	}
+
+	.new-item-and-popular-wrapper {
+		justify-content: center;
+	}
+
+
+
+	.f-carousel {
+		padding: 0 32px;
+	}
+
+	.popular .f-carousel__slide,
+	.new-items .f-carousel__slide {
+		width: calc((100% - 10px) / 2);
+		--f-carousel-spacing: 10px;
+	}
+
+	// =======================
 	.blog {
 		&__container {
 			padding-top: 60px;
