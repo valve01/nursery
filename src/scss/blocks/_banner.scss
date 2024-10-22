@@ -12,7 +12,25 @@
 		scale: 1.2;
 		animation: zoomBanner 5s linear;
 	}
-	&__shadow{
+	&__wrapper-inDev {
+		background-image: url('../img/banner.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		height: 60vh;
+	}
+	&__inner-inDev {
+		width: 100%;
+		text-align: center;
+		& .banner__title,
+		.banner__descr {
+			max-width: none;
+		}
+		& .banner__btn{
+			margin-bottom: 10px;
+		}
+	}
+	&__shadow {
 		background-image: linear-gradient(#00000000, #000000cc);
 		height: 80vh;
 	}
