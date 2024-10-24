@@ -11,4 +11,13 @@
 		row-gap: 16px;
 		justify-items: center;
 	}
+
+// Galery================
+
+.galery .f-carousel__slide {
+	width: calc((100% - 20px) / 3);
+}
+
+// =======================
+
 }

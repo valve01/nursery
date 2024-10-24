@@ -24,4 +24,22 @@
 			font-size: 18px;
 		}
 	}
+// Galery================
+
+.galery .f-carousel__slide {
+	width: calc((100% - 30px) / 4);
+	--f-carousel-spacing: 10px;
+	margin-right: var(--f-carousel-spacing);
+}
+
+.galery{
+	&__item {
+
+		row-gap: 10px;
+	}
+}
+
+// =======================
+
+
 }
