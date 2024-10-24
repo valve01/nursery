@@ -2,19 +2,12 @@
 	--container-width: 1200px;
 	--container-padding: 20px;
 
-	// --font-main: 'Roboto', 'Arial', sans-serif;
-	// --font-accent: 'Playfair Display', serif;
-
 	--color-page-bg: #2c8659;
 	--color-text: #ffffff;
 	--color-accent: #000;
-	--color-main: #2b4074;
 	--color-secondary: #f7f2ea;
 	--color-descr: #9b9b9b;
 
-	--laptop-size: 1199px;
-	--tablet-size: 959px;
-	--mobile-size: 599px;
 }
 
 @mixin btn-default {
@@ -32,9 +25,6 @@
 
 $color-secondary: #f9f6e5;
 
-$laptop-size: 1199px;
-$tablet-size: 959px;
-$mobile-size: 599px;
 
 .dark {
 	--page-bg-color: #252526;

@@ -3,11 +3,9 @@ import { defineElement } from '@lordicon/element';
 // // define "lord-icon" custom element with default properties
 defineElement(lottie.loadAnimation);
 
-
-
 import { DotLottie } from '@lottiefiles/dotlottie-web';
 
-const phoneContainer=document.querySelector('.footer__phone')
+const phoneContainer = document.querySelector('.footer__phone');
 const lottiePhoneEl = document.querySelector('.dotlottie-phone');
 let lottiePhoneAnim = new DotLottie({
 	canvas: lottiePhoneEl,
@@ -16,10 +14,9 @@ let lottiePhoneAnim = new DotLottie({
 
 phoneContainer.addEventListener('mouseover', () => {
 	lottiePhoneAnim.play();
-
 });
 
-const emailContainer =document.querySelector('.footer__email')
+const emailContainer = document.querySelector('.footer__email');
 const lottieMailEl = document.querySelector('.dotlottie-mail');
 let lottieMailAnim = new DotLottie({
 	canvas: lottieMailEl,

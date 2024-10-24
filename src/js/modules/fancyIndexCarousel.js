@@ -17,7 +17,6 @@ addSlideClass(allNewItemsSlides);
 
 const popularCarouselContainer = document.getElementById('popularCarousel');
 const popularCarouselOptions = {
-
 	infinite: true,
 	Autoplay: {
 		timeout: 7000,
@@ -29,7 +28,6 @@ new Carousel(popularCarouselContainer, popularCarouselOptions, { Autoplay });
 
 const newItemsContainer = document.getElementById('newItemsCarousel');
 const newItemsOptions = {
-
 	infinite: true,
 	Autoplay: {
 		timeout: 5000,

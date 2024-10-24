@@ -47,6 +47,4 @@ categoryLinksForList.forEach((link) => {
 	});
 });
 
-
 export { cardsList, categoryLinksForList, setActiveCat };
-

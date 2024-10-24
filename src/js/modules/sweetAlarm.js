@@ -6,7 +6,7 @@ const showPopup = () => {
 		title: 'Сообщение успешно отправлено',
 		text: `Мы пришлем вам ответ на электронный адрес: ${mailInput.value} `,
 		icon: 'success',
-		button: "Ок, жду",
+		button: 'Ок, жду',
 	});
 };
 

@@ -17,7 +17,6 @@ const galeryCarouselOptions = {
 	Dots: {
 		dynamicFrom: 50,
 	},
-
 	slidesPerPage: 1,
 	center: false,
 };
