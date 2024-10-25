@@ -13,21 +13,19 @@
 		}
 	}
 
-// Galery================
+	// Galery================
 
-.galery .f-carousel__slide {
-	width: calc((100% - 12px) / 3);
-	--f-carousel-spacing: 6px;
-	margin-right: var(--f-carousel-spacing);
-}
-
-.galery{
-	&__item {
-
-		row-gap: 6px;
+	.galery .f-carousel__slide {
+		width: calc((100% - 12px) / 3);
+		--f-carousel-spacing: 6px;
+		margin-right: var(--f-carousel-spacing);
 	}
-}
 
-// =======================
+	.galery {
+		&__item {
+			row-gap: 6px;
+		}
+	}
 
+	// =======================
 }

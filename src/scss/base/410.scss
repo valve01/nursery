@@ -1,12 +1,11 @@
 // Desktop first
 @media (max-width: 410px) {
-	// Sliders==========================
+	// Sliders index==========================
 
 	.new-item-and-popular-wrapper {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
-		// justify-content: space-between;
 	}
 	.new-items,
 	.popular {
@@ -22,12 +21,12 @@
 	.catalog__item-btn-in-cart-text {
 		font-size: 14px;
 	}
-	.catalog__item-img{
+	.catalog__item-img {
 		height: 240px;
 	}
-.catalog__item-inner-text{
-	padding: 6px 6px 10px;
-}
+	.catalog__item-inner-text {
+		padding: 6px 6px 10px;
+	}
 	.catalog__item-btn-in-cart,
 	.catalog__item-btn-buy {
 		padding: 6px 14px;

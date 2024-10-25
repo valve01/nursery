@@ -1,8 +1,3 @@
-//Mobile first
-// @media (min-width: 768px) {
-
-// }
-
 // Desktop first
 @media (max-width: 810px) {
 	.menu {
@@ -11,9 +6,9 @@
 	.mobile-burger {
 		display: block;
 	}
-.search-btn{
-	margin-right: 20px;
-}
+	.search-btn {
+		margin-right: 20px;
+	}
 	.logo {
 		display: block;
 		position: absolute;
@@ -38,11 +33,10 @@
 			padding-bottom: 40px;
 		}
 		&__items {
-
 		}
 	}
 
-//  Sliders ===================================
+	//  Sliders index===================================
 	#popularCarousel .f-button.is-prev,
 	#newItemsCarousel .f-button.is-prev {
 		left: 0;
@@ -57,26 +51,20 @@
 		justify-content: center;
 	}
 
-
-
-
 	.f-carousel {
 		padding: 0 32px;
 	}
 
 	.popular .f-carousel__slide,
 	.new-items .f-carousel__slide {
-		width: 100% ;
-		
+		width: 100%;
 	}
 	#popularCarousel .catalog__item,
-	#newItemsCarousel .catalog__item{
+	#newItemsCarousel .catalog__item {
 		animation: none;
 	}
 
-
-
-// about galery ============================================
+	// about galery ============================================
 
 	.about {
 		&__bottom-block {
@@ -86,8 +74,7 @@
 		}
 	}
 
-
-// ============================================
+	// ============================================
 	.reviews {
 		&__container {
 			padding: 0 30px;
