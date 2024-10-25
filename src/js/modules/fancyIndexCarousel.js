@@ -2,6 +2,7 @@ import { Carousel } from '@fancyapps/ui/dist/carousel/carousel.esm.js';
 import '@fancyapps/ui/dist/carousel/carousel.css';
 import { Autoplay } from '@fancyapps/ui/dist/carousel/carousel.autoplay.esm.js';
 import '@fancyapps/ui/dist/carousel/carousel.autoplay.css';
+import { rewiewsAnimation } from './reviewsAnim';
 
 const allPopularSlides = document.querySelectorAll('.popular .catalog__item');
 const allNewItemsSlides = document.querySelectorAll('.new-items .catalog__item');
@@ -34,5 +35,10 @@ const newItemsOptions = {
 	},
 	slidesPerPage: 1,
 	center: false,
+	on: {
+		ready: () => {
+			rewiewsAnimation();
+		},
+	},
 };
 new Carousel(newItemsContainer, newItemsOptions, { Autoplay });
