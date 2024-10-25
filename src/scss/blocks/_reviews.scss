@@ -7,18 +7,10 @@
 		max-width: 1200px;
 		overflow: hidden;
 	}
-	&__title {
-		// color: red;
-		// font-size: 40px;
-		// @extend %font-cormorant-400;
-		// text-align: center;
-		// margin-bottom: 60px;
-	}
 	&__items {
 		display: flex;
 		justify-content: space-between;
 		gap: 0 20px;
-		// transform: translateX(120%);
 	}
 	&__items.visible {
 		transform: translateX(0);
@@ -35,7 +27,6 @@
 			transform: translateX(220%);
 		}
 	}
-
 	&__item.visible {
 		transform: translateX(0);
 	}

@@ -1,6 +1,7 @@
 .products {
 	background-color: #fff;
 	text-align: center;
+
 	&__container {
 		padding: 60px 0 100px;
 		margin: 0 auto;
@@ -13,16 +14,8 @@
 	}
 	&__item-name {
 		@extend %font-cormorant-600;
-		// flex-shrink: 0;
-		// position: relative;
-		// top: 0;
-		// bottom: 0;
-		// margin-top: auto;
-		// margin-bottom: 0;
 		font-size: 24px;
-		// display: block;
 		color: var(--color-accent);
-		// text-wrap: wrap;
 		max-width: 136px;
 	}
 	&__items {
@@ -30,21 +23,15 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		gap: 40px 20px;
-		// justify-content: space-between;
 		margin: 0 10px;
-		// display: grid;
-		// grid-template-columns: repeat(7, 1fr);
-		// grid-template-rows: repeat(1, 200px);
-		// height: 200px;
-		// row-gap: 20px;
-		// column-gap: 10px;
 	}
-	&__item-link{
+	&__item-link {
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 }
+
 .svg-icons--leaf-bush-dims,
 .svg-icons--rose-dims,
 .svg-icons--home-plant-dims,
@@ -53,10 +40,10 @@
 .svg-icons--fruit-tree-dims,
 .svg-icons--fruit-bush-dims,
 .svg-icons--palm-tree-dims {
-
 	margin-bottom: 20px;
 }
-.products__img-link .svg-icons--rose-dims{
+
+.products__img-link .svg-icons--rose-dims {
 	height: 100px;
 	width: 100px;
 }
@@ -68,22 +55,24 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 }
+
 .change-img {
 	width: 136px;
 	height: 150px;
 	position: relative;
-	// display: flex;
 	perspective: 150px;
 	justify-content: center;
 }
+
 .change-img:hover .front-side-img {
 	transform: rotateY(180deg);
 }
+
 .change-img:hover .back-side-img {
 	transform: rotateY(360deg);
 }
+
 /* Стороны изображения */
 .front-side-img,
 .back-side-img {
@@ -95,12 +84,12 @@
 	align-items: center;
 	transition: 1s;
 }
+
 .front-side-img img {
 	max-width: 100%;
 	min-width: 100%;
 	height: auto;
-  }
-
+}
 
 .back-side-img img {
 	max-width: 100%;
@@ -108,6 +97,7 @@
 	height: auto;
 	transform: scaleX(-1); /* Отражаем изображение по горизонтали */
 }
+
 .back-side-img {
 	transform: rotateY(180deg);
 }

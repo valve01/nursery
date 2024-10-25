@@ -1,9 +1,7 @@
 .new-item-and-popular-wrapper {
 	display: flex;
 	justify-content: space-between;
-
 }
-
 
 .new-items,
 .popular {
@@ -13,6 +11,7 @@
 .f-carousel {
 	padding: 0 50px;
 }
+
 .popular .f-carousel__slide,
 .new-items .f-carousel__slide {
 	width: calc((100% - 60px) / 3);

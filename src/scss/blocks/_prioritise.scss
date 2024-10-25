@@ -2,6 +2,7 @@
 	color: var(--color-page-bg);
 	background-color: var(--color-text);
 	text-align: center;
+
 	&__container {
 		max-width: 1200px;
 		margin: 0 auto;
@@ -45,8 +46,6 @@
 		@extend %font-open-sans-600;
 		font-size: 18px;
 		min-height: 81px;
-	}
-	&__img {
 	}
 }
 

@@ -3,6 +3,7 @@
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
+
 	&__container {
 		padding-top: 60px;
 		padding-bottom: 60px;
@@ -37,7 +38,6 @@
 		&::placeholder {
 			color: #858585c4;
 		}
-
 	}
 	&__btn {
 		color: var(--color-page-bg);

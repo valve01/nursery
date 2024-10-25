@@ -1,6 +1,7 @@
 .footer {
 	padding: 0;
 	background-color: #022e21;
+
 	&__container {
 		padding: 60px 20px 20px;
 		max-width: 1200px;
@@ -20,21 +21,17 @@
 		font-size: 24px;
 		margin-bottom: 50px;
 	}
-	&__items {
-	}
 	&__item {
 		@extend %font-open-sans-300;
 		font-size: 16px;
 		margin-bottom: 15px;
 		transition: 0.3s all;
-		&:hover{
+		&:hover {
 			font-weight: bold;
 		}
-
 	}
-	&__link{
+	&__link {
 		color: #fff;
-
 	}
 	&__company {
 		width: 22%;
@@ -43,8 +40,6 @@
 	&__quote {
 		margin-top: 80px;
 		max-width: 269px;
-	}
-	&__owner-quote {
 	}
 	&__text {
 		@extend %font-open-sans-300-i;
@@ -67,15 +62,11 @@
 		@extend %font-open-sans-300;
 		font-size: 13px;
 	}
-	&__logo {
-	}
 	&__phone {
 		margin-left: -5px;
 		display: flex;
 		align-items: center;
 		margin-bottom: 20px;
-	}
-	&__phone-img {
 	}
 	&__phone-text {
 		margin-left: 15px;
@@ -122,6 +113,7 @@
 .svg-icons--phone-dims {
 	height: 30px;
 }
+
 .svg-icons--envelope-dims {
 	height: 30px;
 }

@@ -1,10 +1,10 @@
 .blog {
 	background-color: #fff;
 	color: var(--color-accent);
+
 	&__container {
 		padding: 60px 20px;
 	}
-
 	&__items {
 		display: flex;
 		flex-wrap: wrap;
@@ -22,7 +22,6 @@
 		height: 180px;
 		width: 270px;
 		overflow: hidden;
-
 		display: inline-block;
 		background: #2c8659; /* Меняем цвет на свой */
 		line-height: 0;

@@ -1,16 +1,9 @@
 .about {
-color: var(--color-page-bg);
-background-color: var(--color-text);
-
-	&__top-block {
-	}
-	&__container {
-
-	}
+	color: var(--color-page-bg);
+	background-color: var(--color-text);
+	
 	&__title {
 		margin-bottom: 60px;
-	}
-	&__inner {
 	}
 	&__subtitle {
 		text-align: center;
@@ -22,11 +15,11 @@ background-color: var(--color-text);
 		@extend %font-open-sans-400;
 		font-size: 18px;
 		padding-bottom: 30px;
-		text-align:justify;
+		text-align: justify;
 	}
 	&__bottom-block {
-		padding-bottom:60px;
-		& .about__text{
+		padding-bottom: 60px;
+		& .about__text {
 			width: 60%;
 		}
 	}

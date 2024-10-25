@@ -1,5 +1,3 @@
-
-
 .catalog {
 	background-color: var(--color-text);
 	padding: 0 20px 40px;
@@ -20,19 +18,15 @@
 		color: #000;
 		margin-bottom: 30px;
 	}
-	&__categories-item {
-	}
 	&__categories-link {
 		@include btn-default;
 		padding: 10px;
 		transition: 0.5s all;
-		&--active{
+		&--active {
 			color: var(--color-text);
 			background-color: var(--color-page-bg);
 		}
 	}
-
-
 	&__items {
 		display: flex;
 		flex-wrap: wrap;
@@ -59,10 +53,6 @@
 		padding: 10px 10px 20px;
 		background-color: #fff;
 	}
-	&__item-img-link {
-	}
-	&__item-img-wrap {
-	}
 	&__item-img {
 		object-fit: cover;
 		height: 200px;
@@ -74,11 +64,9 @@
 		flex-direction: column;
 		justify-content: center;
 	}
-	&__item-item-name-link {
-	}
 	&__item-name {
 		text-wrap: wrap;
-		word-break:break-word;
+		word-break: break-word;
 		@extend %font-open-sans-600;
 		color: var(--color-page-bg);
 		display: -webkit-box;
@@ -101,18 +89,8 @@
 		flex-direction: column;
 		align-items: center;
 	}
-	&__item-in-stock {
-	}
-	&__item-in-stock-icon {
-	}
-	&__item-in-stock-text {
-	}
 	&__item-not-available {
 		display: none;
-	}
-	&__item-not-available-icon {
-	}
-	&__item-not-available-text {
 	}
 	&__item-btn-block {
 		display: flex;
@@ -130,23 +108,16 @@
 			box-shadow: 0px 0px 10px 4px var(--color-page-bg);
 		}
 	}
-	&__item-btn-buy-text {
-	}
-	&__item-btn-buy-icon {
-	}
 	&__item-btn-in-cart {
 		background-color: var(--color-descr);
 		padding: 8px 20px;
 	}
-	&__item-btn-in-cart-text {
-	}
 	&__item-btn-in-cart-icon {
 		color: var(--color-page-bg);
 	}
-	&__search-block{
+	&__search-block {
 		display: flex;
 		align-items: center;
-
 	}
 }
 
@@ -156,7 +127,7 @@
 	justify-content: flex-end;
 	align-items: center;
 	margin-bottom: 16px;
-	& .cross-search{
+	& .cross-search {
 		position: absolute;
 		right: 16px;
 		display: flex;
@@ -177,9 +148,11 @@
 		color: var(--color-descr);
 	}
 }
+
 .search-btn.header__tools {
 	display: flex;
 }
+
 @keyframes fade {
 	0% {
 		opacity: 0;
@@ -191,7 +164,6 @@
 
 #list-container .pagination {
 	position: absolute;
-	
 	left: 0;
 	right: 0;
 	width: 300px;
@@ -216,5 +188,3 @@
 		}
 	}
 }
-
-
