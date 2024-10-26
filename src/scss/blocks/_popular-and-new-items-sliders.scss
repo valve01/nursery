@@ -1,11 +1,19 @@
 .new-item-and-popular-wrapper {
+	background-color: var(--color-text);
 	display: flex;
 	justify-content: space-between;
+	& .title {
+		color: #000;
+	}
+	& .f-carousel__dots {
+		display: none;
+	}
 }
 
 .new-items,
 .popular {
 	width: 50%;
+	margin-bottom: 40px;
 }
 
 .f-carousel {

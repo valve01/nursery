@@ -63,7 +63,6 @@ body:has(.mobile-nav--active) {
 }
 
 .mobile-nav__wrapper.mobile-nav--active {
-	// z-index: 999;
 	overflow-y: auto;
 	height: 100vh;
 	transform: translate(0, 0);
