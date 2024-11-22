@@ -14,6 +14,17 @@
 - sweetalert
 - validator
 
+## Стэк
+- HTML 5
+- CSS 3
+- SCSS
+- Vanilla JS
+- БЭМ
+- Gulp
+- Webpack
+- SVG
+- Lottie
+
 ## Реализовано
 
 - полный адаптив от 360px до 1920px
