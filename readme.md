@@ -9,10 +9,8 @@
 - @floating-ui/dom
 - @lordicon/element
 - @lottiefiles/dotlottie-web
-- jquery
 - list.js
 - lottie-web
-- slick-slider
 - sweetalert
 - validator
 
